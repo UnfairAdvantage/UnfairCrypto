@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+class MyClass {
+    static func test() {
+        #if os(iOS)
+        let myVar = "iOS"
+        #elseif os(macOS)
+        let myVar = "macOS"
+        #endif
+
+        print(myVar)
+    }
+}

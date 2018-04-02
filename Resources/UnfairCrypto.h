@@ -5,7 +5,7 @@
 //  Created by Gustaf Kugelberg on 2018-04-02.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for UnfairCrypto_iOS.
 FOUNDATION_EXPORT double UnfairCryptoVersionNumber;

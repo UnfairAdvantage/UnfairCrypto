@@ -11,8 +11,6 @@
 		22D9795A207277CE00935A95 /* UnfairCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D979402072750000935A95 /* UnfairCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22D9795C2072781300935A95 /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D9795B2072781300935A95 /* MyTest.swift */; };
 		22D9795D2072781300935A95 /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D9795B2072781300935A95 /* MyTest.swift */; };
-		22D9796120727A0400935A95 /* UnfairCrypto.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 22D9796020727A0400935A95 /* UnfairCrypto.podspec */; };
-		22D9796220727A0400935A95 /* UnfairCrypto.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 22D9796020727A0400935A95 /* UnfairCrypto.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +21,7 @@
 		22D9794E2072756B00935A95 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		22D9795B2072781300935A95 /* MyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTest.swift; sourceTree = "<group>"; };
 		22D9795F2072797500935A95 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		22D9796020727A0400935A95 /* UnfairCrypto.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = UnfairCrypto.podspec; sourceTree = "<group>"; };
+		22D979632072B60600935A95 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +45,9 @@
 		22D97931207274B200935A95 = {
 			isa = PBXGroup;
 			children = (
-				22D9795E2072796100935A95 /* Metadata */,
+				22D9795F2072797500935A95 /* README.md */,
+				22D979632072B60600935A95 /* Package.swift */,
+				22D9795E2072796100935A95 /* Resources */,
 				22D97953207275AB00935A95 /* Sources */,
 				22D9793E2072750000935A95 /* Products */,
 			);
@@ -66,20 +66,18 @@
 			isa = PBXGroup;
 			children = (
 				22D9795B2072781300935A95 /* MyTest.swift */,
-				22D979402072750000935A95 /* UnfairCrypto.h */,
-				22D9794E2072756B00935A95 /* Info-macOS.plist */,
-				22D979412072750000935A95 /* Info-iOS.plist */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		22D9795E2072796100935A95 /* Metadata */ = {
+		22D9795E2072796100935A95 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				22D9795F2072797500935A95 /* README.md */,
-				22D9796020727A0400935A95 /* UnfairCrypto.podspec */,
+				22D979402072750000935A95 /* UnfairCrypto.h */,
+				22D9794E2072756B00935A95 /* Info-macOS.plist */,
+				22D979412072750000935A95 /* Info-iOS.plist */,
 			);
-			path = Metadata;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +179,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D9796120727A0400935A95 /* UnfairCrypto.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +186,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D9796220727A0400935A95 /* UnfairCrypto.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,12 +214,20 @@
 		22D97936207274B200935A95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.unfair.$(PROJECT_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 			};
 			name = Debug;
 		};
 		22D97937207274B200935A95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.unfair.$(PROJECT_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 			};
 			name = Release;
 		};
@@ -296,9 +300,6 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "unfair.UnfairCrypto-iOS";
-				PRODUCT_MODULE_NAME = UnfairCrypto;
-				PRODUCT_NAME = UnfairCrypto;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -372,9 +373,6 @@
 					"@loader_path/Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "unfair.UnfairCrypto-iOS";
-				PRODUCT_MODULE_NAME = UnfairCrypto;
-				PRODUCT_NAME = UnfairCrypto;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -458,9 +456,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "unfair.UnfairCrypto-macOS";
-				PRODUCT_MODULE_NAME = UnfairCrypto;
-				PRODUCT_NAME = UnfairCrypto;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -535,9 +530,6 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "unfair.UnfairCrypto-macOS";
-				PRODUCT_MODULE_NAME = UnfairCrypto;
-				PRODUCT_NAME = UnfairCrypto;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
