@@ -7,8 +7,8 @@
 
 import Foundation
 
-class MyClass {
-    static func test() {
+public class MyClass {
+    public static func test() {
         #if os(iOS)
         let myVar = "iOS"
         #elseif os(macOS)
