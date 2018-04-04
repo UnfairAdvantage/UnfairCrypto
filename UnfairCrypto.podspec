@@ -2,10 +2,10 @@ Pod::Spec.new do |s|
     s.name = 'UnfairCrypto'
     s.version = '0.9.3'
     s.summary = 'This is an example of a cross-platform Swift framework!'
-    s.source = { :git => '[REPO URL]', :tag => s.version }
-    s.authors = '[Gustaf Kugelberg / Unfair Advantage]'
+    s.source = { :git => 'https://github.com/UnfairAdvantageAB/UnfairCrypto', :tag => s.version }
+    s.authors = 'Unfair Advantage AB'
     s.license = 'Copyright'
-    s.homepage = '[WEBSITE URL]'
+    s.homepage = 'unfair.me'
 
     s.ios.deployment_target = '11.3'
     s.osx.deployment_target = '10.13'
