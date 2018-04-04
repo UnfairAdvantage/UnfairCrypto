@@ -7,6 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2265493F2074F5610059E5D5 /* Bitmex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549262074F5610059E5D5 /* Bitmex.swift */; };
+		226549402074F5610059E5D5 /* Bitmex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549262074F5610059E5D5 /* Bitmex.swift */; };
+		226549412074F5610059E5D5 /* BxSettlement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549282074F5610059E5D5 /* BxSettlement.swift */; };
+		226549422074F5610059E5D5 /* BxSettlement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549282074F5610059E5D5 /* BxSettlement.swift */; };
+		226549432074F5610059E5D5 /* BxOrderbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549292074F5610059E5D5 /* BxOrderbook.swift */; };
+		226549442074F5610059E5D5 /* BxOrderbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549292074F5610059E5D5 /* BxOrderbook.swift */; };
+		226549452074F5610059E5D5 /* BxChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492A2074F5610059E5D5 /* BxChat.swift */; };
+		226549462074F5610059E5D5 /* BxChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492A2074F5610059E5D5 /* BxChat.swift */; };
+		226549472074F5610059E5D5 /* BxTrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492B2074F5610059E5D5 /* BxTrade.swift */; };
+		226549482074F5610059E5D5 /* BxTrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492B2074F5610059E5D5 /* BxTrade.swift */; };
+		226549492074F5610059E5D5 /* BxPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492C2074F5610059E5D5 /* BxPosition.swift */; };
+		2265494A2074F5610059E5D5 /* BxPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492C2074F5610059E5D5 /* BxPosition.swift */; };
+		2265494B2074F5610059E5D5 /* BxRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492D2074F5610059E5D5 /* BxRequest.swift */; };
+		2265494C2074F5610059E5D5 /* BxRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492D2074F5610059E5D5 /* BxRequest.swift */; };
+		2265494D2074F5610059E5D5 /* BxInsurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492E2074F5610059E5D5 /* BxInsurance.swift */; };
+		2265494E2074F5610059E5D5 /* BxInsurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492E2074F5610059E5D5 /* BxInsurance.swift */; };
+		2265494F2074F5610059E5D5 /* BxFunding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492F2074F5610059E5D5 /* BxFunding.swift */; };
+		226549502074F5610059E5D5 /* BxFunding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492F2074F5610059E5D5 /* BxFunding.swift */; };
+		226549512074F5610059E5D5 /* BxNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549302074F5610059E5D5 /* BxNotification.swift */; };
+		226549522074F5610059E5D5 /* BxNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549302074F5610059E5D5 /* BxNotification.swift */; };
+		226549532074F5610059E5D5 /* BxQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549312074F5610059E5D5 /* BxQuote.swift */; };
+		226549542074F5610059E5D5 /* BxQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549312074F5610059E5D5 /* BxQuote.swift */; };
+		226549552074F5610059E5D5 /* BxUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549322074F5610059E5D5 /* BxUser.swift */; };
+		226549562074F5610059E5D5 /* BxUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549322074F5610059E5D5 /* BxUser.swift */; };
+		226549572074F5610059E5D5 /* BxExecution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549332074F5610059E5D5 /* BxExecution.swift */; };
+		226549582074F5610059E5D5 /* BxExecution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549332074F5610059E5D5 /* BxExecution.swift */; };
+		226549592074F5610059E5D5 /* BxOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549342074F5610059E5D5 /* BxOrder.swift */; };
+		2265495A2074F5610059E5D5 /* BxOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549342074F5610059E5D5 /* BxOrder.swift */; };
+		2265495B2074F5610059E5D5 /* BxAnnouncement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549352074F5610059E5D5 /* BxAnnouncement.swift */; };
+		2265495C2074F5610059E5D5 /* BxAnnouncement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549352074F5610059E5D5 /* BxAnnouncement.swift */; };
+		2265495D2074F5610059E5D5 /* BxSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549362074F5610059E5D5 /* BxSchema.swift */; };
+		2265495E2074F5610059E5D5 /* BxSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549362074F5610059E5D5 /* BxSchema.swift */; };
+		2265495F2074F5610059E5D5 /* BxLeaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549372074F5610059E5D5 /* BxLeaderboard.swift */; };
+		226549602074F5610059E5D5 /* BxLeaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549372074F5610059E5D5 /* BxLeaderboard.swift */; };
+		226549612074F5610059E5D5 /* BxInstrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549382074F5610059E5D5 /* BxInstrument.swift */; };
+		226549622074F5610059E5D5 /* BxInstrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549382074F5610059E5D5 /* BxInstrument.swift */; };
+		226549632074F5610059E5D5 /* BxLiquidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549392074F5610059E5D5 /* BxLiquidation.swift */; };
+		226549642074F5610059E5D5 /* BxLiquidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549392074F5610059E5D5 /* BxLiquidation.swift */; };
+		226549652074F5610059E5D5 /* BxApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265493A2074F5610059E5D5 /* BxApiKey.swift */; };
+		226549662074F5610059E5D5 /* BxApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265493A2074F5610059E5D5 /* BxApiKey.swift */; };
+		226549672074F5610059E5D5 /* BxStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265493B2074F5610059E5D5 /* BxStats.swift */; };
+		226549682074F5610059E5D5 /* BxStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265493B2074F5610059E5D5 /* BxStats.swift */; };
+		226549692074F5610059E5D5 /* BxRestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265493C2074F5610059E5D5 /* BxRestAPI.swift */; };
+		2265496A2074F5610059E5D5 /* BxRestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265493C2074F5610059E5D5 /* BxRestAPI.swift */; };
+		2265496B2074F5610059E5D5 /* BxSocketAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265493E2074F5610059E5D5 /* BxSocketAPI.swift */; };
+		2265496C2074F5610059E5D5 /* BxSocketAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265493E2074F5610059E5D5 /* BxSocketAPI.swift */; };
+		2265496E2074F5A30059E5D5 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265496D2074F5A30059E5D5 /* General.swift */; };
+		2265496F2074F5A30059E5D5 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265496D2074F5A30059E5D5 /* General.swift */; };
+		226549712074F6210059E5D5 /* HMACSignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549702074F6200059E5D5 /* HMACSignature.swift */; };
+		226549722074F6210059E5D5 /* HMACSignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549702074F6200059E5D5 /* HMACSignature.swift */; };
 		22D979422072750000935A95 /* UnfairCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D979402072750000935A95 /* UnfairCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22D9795A207277CE00935A95 /* UnfairCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D979402072750000935A95 /* UnfairCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22D9795C2072781300935A95 /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D9795B2072781300935A95 /* MyTest.swift */; };
@@ -14,6 +64,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		226549262074F5610059E5D5 /* Bitmex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bitmex.swift; sourceTree = "<group>"; };
+		226549282074F5610059E5D5 /* BxSettlement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxSettlement.swift; sourceTree = "<group>"; };
+		226549292074F5610059E5D5 /* BxOrderbook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxOrderbook.swift; sourceTree = "<group>"; };
+		2265492A2074F5610059E5D5 /* BxChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxChat.swift; sourceTree = "<group>"; };
+		2265492B2074F5610059E5D5 /* BxTrade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxTrade.swift; sourceTree = "<group>"; };
+		2265492C2074F5610059E5D5 /* BxPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxPosition.swift; sourceTree = "<group>"; };
+		2265492D2074F5610059E5D5 /* BxRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxRequest.swift; sourceTree = "<group>"; };
+		2265492E2074F5610059E5D5 /* BxInsurance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxInsurance.swift; sourceTree = "<group>"; };
+		2265492F2074F5610059E5D5 /* BxFunding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxFunding.swift; sourceTree = "<group>"; };
+		226549302074F5610059E5D5 /* BxNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxNotification.swift; sourceTree = "<group>"; };
+		226549312074F5610059E5D5 /* BxQuote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxQuote.swift; sourceTree = "<group>"; };
+		226549322074F5610059E5D5 /* BxUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxUser.swift; sourceTree = "<group>"; };
+		226549332074F5610059E5D5 /* BxExecution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxExecution.swift; sourceTree = "<group>"; };
+		226549342074F5610059E5D5 /* BxOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxOrder.swift; sourceTree = "<group>"; };
+		226549352074F5610059E5D5 /* BxAnnouncement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxAnnouncement.swift; sourceTree = "<group>"; };
+		226549362074F5610059E5D5 /* BxSchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxSchema.swift; sourceTree = "<group>"; };
+		226549372074F5610059E5D5 /* BxLeaderboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxLeaderboard.swift; sourceTree = "<group>"; };
+		226549382074F5610059E5D5 /* BxInstrument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxInstrument.swift; sourceTree = "<group>"; };
+		226549392074F5610059E5D5 /* BxLiquidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxLiquidation.swift; sourceTree = "<group>"; };
+		2265493A2074F5610059E5D5 /* BxApiKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxApiKey.swift; sourceTree = "<group>"; };
+		2265493B2074F5610059E5D5 /* BxStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxStats.swift; sourceTree = "<group>"; };
+		2265493C2074F5610059E5D5 /* BxRestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxRestAPI.swift; sourceTree = "<group>"; };
+		2265493E2074F5610059E5D5 /* BxSocketAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxSocketAPI.swift; sourceTree = "<group>"; };
+		2265496D2074F5A30059E5D5 /* General.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
+		226549702074F6200059E5D5 /* HMACSignature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMACSignature.swift; sourceTree = "<group>"; };
 		22D9793D2072750000935A95 /* UnfairCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UnfairCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D979402072750000935A95 /* UnfairCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnfairCrypto.h; sourceTree = "<group>"; };
 		22D979412072750000935A95 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
@@ -42,6 +117,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		226549252074F5610059E5D5 /* Bitmex */ = {
+			isa = PBXGroup;
+			children = (
+				226549262074F5610059E5D5 /* Bitmex.swift */,
+				226549272074F5610059E5D5 /* Rest */,
+				2265493D2074F5610059E5D5 /* Socket */,
+			);
+			path = Bitmex;
+			sourceTree = "<group>";
+		};
+		226549272074F5610059E5D5 /* Rest */ = {
+			isa = PBXGroup;
+			children = (
+				226549282074F5610059E5D5 /* BxSettlement.swift */,
+				226549292074F5610059E5D5 /* BxOrderbook.swift */,
+				2265492A2074F5610059E5D5 /* BxChat.swift */,
+				2265492B2074F5610059E5D5 /* BxTrade.swift */,
+				2265492C2074F5610059E5D5 /* BxPosition.swift */,
+				2265492D2074F5610059E5D5 /* BxRequest.swift */,
+				2265492E2074F5610059E5D5 /* BxInsurance.swift */,
+				2265492F2074F5610059E5D5 /* BxFunding.swift */,
+				226549302074F5610059E5D5 /* BxNotification.swift */,
+				226549312074F5610059E5D5 /* BxQuote.swift */,
+				226549322074F5610059E5D5 /* BxUser.swift */,
+				226549332074F5610059E5D5 /* BxExecution.swift */,
+				226549342074F5610059E5D5 /* BxOrder.swift */,
+				226549352074F5610059E5D5 /* BxAnnouncement.swift */,
+				226549362074F5610059E5D5 /* BxSchema.swift */,
+				226549372074F5610059E5D5 /* BxLeaderboard.swift */,
+				226549382074F5610059E5D5 /* BxInstrument.swift */,
+				226549392074F5610059E5D5 /* BxLiquidation.swift */,
+				2265493A2074F5610059E5D5 /* BxApiKey.swift */,
+				2265493B2074F5610059E5D5 /* BxStats.swift */,
+				2265493C2074F5610059E5D5 /* BxRestAPI.swift */,
+			);
+			path = Rest;
+			sourceTree = "<group>";
+		};
+		2265493D2074F5610059E5D5 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				2265493E2074F5610059E5D5 /* BxSocketAPI.swift */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
 		22D97931207274B200935A95 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +186,9 @@
 		22D97953207275AB00935A95 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				2265496D2074F5A30059E5D5 /* General.swift */,
+				226549702074F6200059E5D5 /* HMACSignature.swift */,
+				226549252074F5610059E5D5 /* Bitmex */,
 				22D9795B2072781300935A95 /* MyTest.swift */,
 			);
 			path = Sources;
@@ -110,6 +234,7 @@
 				22D979392072750000935A95 /* Frameworks */,
 				22D9793A2072750000935A95 /* Headers */,
 				22D9793B2072750000935A95 /* Resources */,
+				226549242074F4FF0059E5D5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -128,6 +253,7 @@
 				22D979472072756B00935A95 /* Frameworks */,
 				22D979482072756B00935A95 /* Headers */,
 				22D979492072756B00935A95 /* Resources */,
+				226549232074F45B0059E5D5 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -191,11 +317,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		226549232074F45B0059E5D5 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Starscream.framework",
+			);
+			name = "Run Script";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		226549242074F4FF0059E5D5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Starscream.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22D979382072750000935A95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226549612074F5610059E5D5 /* BxInstrument.swift in Sources */,
+				226549532074F5610059E5D5 /* BxQuote.swift in Sources */,
+				226549452074F5610059E5D5 /* BxChat.swift in Sources */,
+				226549632074F5610059E5D5 /* BxLiquidation.swift in Sources */,
+				226549412074F5610059E5D5 /* BxSettlement.swift in Sources */,
+				226549712074F6210059E5D5 /* HMACSignature.swift in Sources */,
+				226549592074F5610059E5D5 /* BxOrder.swift in Sources */,
+				2265495B2074F5610059E5D5 /* BxAnnouncement.swift in Sources */,
+				226549652074F5610059E5D5 /* BxApiKey.swift in Sources */,
+				226549432074F5610059E5D5 /* BxOrderbook.swift in Sources */,
+				2265496B2074F5610059E5D5 /* BxSocketAPI.swift in Sources */,
+				2265494F2074F5610059E5D5 /* BxFunding.swift in Sources */,
+				2265493F2074F5610059E5D5 /* Bitmex.swift in Sources */,
+				226549572074F5610059E5D5 /* BxExecution.swift in Sources */,
+				226549472074F5610059E5D5 /* BxTrade.swift in Sources */,
+				226549672074F5610059E5D5 /* BxStats.swift in Sources */,
+				226549512074F5610059E5D5 /* BxNotification.swift in Sources */,
+				2265495D2074F5610059E5D5 /* BxSchema.swift in Sources */,
+				2265494B2074F5610059E5D5 /* BxRequest.swift in Sources */,
+				226549552074F5610059E5D5 /* BxUser.swift in Sources */,
+				2265496E2074F5A30059E5D5 /* General.swift in Sources */,
+				226549492074F5610059E5D5 /* BxPosition.swift in Sources */,
+				2265495F2074F5610059E5D5 /* BxLeaderboard.swift in Sources */,
+				2265494D2074F5610059E5D5 /* BxInsurance.swift in Sources */,
+				226549692074F5610059E5D5 /* BxRestAPI.swift in Sources */,
 				22D9795C2072781300935A95 /* MyTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +393,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226549622074F5610059E5D5 /* BxInstrument.swift in Sources */,
+				226549542074F5610059E5D5 /* BxQuote.swift in Sources */,
+				226549462074F5610059E5D5 /* BxChat.swift in Sources */,
+				226549642074F5610059E5D5 /* BxLiquidation.swift in Sources */,
+				226549422074F5610059E5D5 /* BxSettlement.swift in Sources */,
+				226549722074F6210059E5D5 /* HMACSignature.swift in Sources */,
+				2265495A2074F5610059E5D5 /* BxOrder.swift in Sources */,
+				2265495C2074F5610059E5D5 /* BxAnnouncement.swift in Sources */,
+				226549662074F5610059E5D5 /* BxApiKey.swift in Sources */,
+				226549442074F5610059E5D5 /* BxOrderbook.swift in Sources */,
+				2265496C2074F5610059E5D5 /* BxSocketAPI.swift in Sources */,
+				226549502074F5610059E5D5 /* BxFunding.swift in Sources */,
+				226549402074F5610059E5D5 /* Bitmex.swift in Sources */,
+				226549582074F5610059E5D5 /* BxExecution.swift in Sources */,
+				226549482074F5610059E5D5 /* BxTrade.swift in Sources */,
+				226549682074F5610059E5D5 /* BxStats.swift in Sources */,
+				226549522074F5610059E5D5 /* BxNotification.swift in Sources */,
+				2265495E2074F5610059E5D5 /* BxSchema.swift in Sources */,
+				2265494C2074F5610059E5D5 /* BxRequest.swift in Sources */,
+				226549562074F5610059E5D5 /* BxUser.swift in Sources */,
+				2265496F2074F5A30059E5D5 /* General.swift in Sources */,
+				2265494A2074F5610059E5D5 /* BxPosition.swift in Sources */,
+				226549602074F5610059E5D5 /* BxLeaderboard.swift in Sources */,
+				2265494E2074F5610059E5D5 /* BxInsurance.swift in Sources */,
+				2265496A2074F5610059E5D5 /* BxRestAPI.swift in Sources */,
 				22D9795D2072781300935A95 /* MyTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +490,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -356,6 +574,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -431,6 +653,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -512,6 +738,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
