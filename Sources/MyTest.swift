@@ -16,5 +16,17 @@ public class MyClass {
         #endif
 
         print(myVar)
+
+        Bitmex.rest
+            .apiKey
+            .get
+            .handle { result in
+                switch result {
+                case .success(let value):
+                    print("SUCCESS: Downloaded api keys: \(value.map { $0.name}.joined(separator: ", "))" )
+                case .failure(let error):
+                    print("FAILURE: \(error)")
+                }
+        }
     }
 }
