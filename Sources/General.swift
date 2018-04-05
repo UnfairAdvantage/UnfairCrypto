@@ -50,7 +50,7 @@ public struct Quote: Decodable, Equatable, CustomStringConvertible {
     }
 
     public var description: String {
-        return "(p: \(price), s: \(size))"
+        return "(price: \(price), size: \(size))"
     }
 }
 
