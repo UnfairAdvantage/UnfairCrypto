@@ -46,11 +46,11 @@ public extension BxRestAPI {
 
 public extension BxResponse {
     public struct Quote: Decodable {
-        let timestamp: Date
-        let symbol: String
-        let bidSize: Int
-        let bidPrice: Double
-        let askSize: Int
-        let askPrice: Double
+        public let timestamp: Date
+        public let symbol: String
+        public let bidSize: Int
+        public let bidPrice: Double
+        public let askSize: Int
+        public let askPrice: Double
     }
 }

@@ -223,39 +223,39 @@ public extension BxRestAPI {
 // FIXME: fill
 public extension BxResponse {
     public struct Order: Decodable {
-        let orderID: String
-        let clOrdID: String
-        let clOrdLinkID: String
-        let account: Double
-        let symbol: BxSymbol
-        let side: BxSide
-        let simpleOrderQty: Double
-        let orderQty: Double
-        let price: Double
-        let displayQty: Double
-        let stopPx: Double
-        let pegOffsetValue: Double
-        let pegPriceType: BxPegPriceType
-        let currency: BxCurrency
-        let settlCurrency: String // FIXME: BxCurrency?
-        let ordType: BxOrderType
-        let timeInForce: BxTimeInForce
-        let execInst: BxExecutionInstructions
-        let contingencyType: BxContingencyType
-        let exDestination: String
-        let ordStatus: String // FIXME: enum
-        let triggered: String
-        let workingIndicator: Bool
-        let ordRejReason: String
-        let simpleLeavesQty: Double
-        let leavesQty: Double
-        let simpleCumQty: Double
-        let cumQty: Double
-        let avgPx: Double
-        let multiLegReportingType: String // Fixme: enum?
-        let text: String
-        let transactTime: Date
-        let timestamp: Date
+        public let orderID: String
+        public let clOrdID: String
+        public let clOrdLinkID: String
+        public let account: Double
+        public let symbol: BxSymbol
+        public let side: BxSide
+        public let simpleOrderQty: Double
+        public let orderQty: Double
+        public let price: Double
+        public let displayQty: Double
+        public let stopPx: Double
+        public let pegOffsetValue: Double
+        public let pegPriceType: BxPegPriceType
+        public let currency: BxCurrency
+        public let settlCurrency: String // FIXME: BxCurrency?
+        public let ordType: BxOrderType
+        public let timeInForce: BxTimeInForce
+        public let execInst: BxExecutionInstructions
+        public let contingencyType: BxContingencyType
+        public let exDestination: String
+        public let ordStatus: String // FIXME: enum
+        public let triggered: String
+        public let workingIndicator: Bool
+        public let ordRejReason: String
+        public let simpleLeavesQty: Double
+        public let leavesQty: Double
+        public let simpleCumQty: Double
+        public let cumQty: Double
+        public let avgPx: Double
+        public let multiLegReportingType: String // Fixme: enum?
+        public let text: String
+        public let transactTime: Date
+        public let timestamp: Date
     }
 
     public struct CancelAllAfter: Decodable { }

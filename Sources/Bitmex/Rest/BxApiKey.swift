@@ -60,19 +60,19 @@ public extension BxRestAPI {
 
 public extension BxResponse {
     public struct ApiKey: Decodable {
-        let id: String
-        let secret: String?
-        let name: String
-        let nonce: Int
-        let cidr: String
-        let permissions: [BxApiPermission]
-        let enabled: Bool
-        let userId: Int
-        let created: Date
+        public let id: String
+        public let secret: String?
+        public let name: String
+        public let nonce: Int
+        public let cidr: String
+        public let permissions: [BxApiPermission]
+        public let enabled: Bool
+        public let userId: Int
+        public let created: Date
     }
 
     struct Success: Decodable {
-        let success: Bool
+        public let success: Bool
     }
 }
 

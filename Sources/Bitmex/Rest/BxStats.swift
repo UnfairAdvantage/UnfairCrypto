@@ -44,28 +44,28 @@ public extension BxRestAPI {
 
 public extension BxResponse {
     public struct Stats: Decodable {
-        let rootSymbol: BxRootSymbol
-        let currency: BxCurrency
-        let volume24h: Double?
-        let turnover24h: Double
-        let openInterest: Double?
-        let openValue: Double
+        public let rootSymbol: BxRootSymbol
+        public let currency: BxCurrency
+        public let volume24h: Double?
+        public let turnover24h: Double
+        public let openInterest: Double?
+        public let openValue: Double
 
         public struct History: Decodable {
-            let date: Date
-            let rootSymbol: BxRootSymbol
-            let currency: BxCurrency
-            let volume: Double?
-            let turnover: Double
+            public let date: Date
+            public let rootSymbol: BxRootSymbol
+            public let currency: BxCurrency
+            public let volume: Double?
+            public let turnover: Double
         }
 
         public struct HistoryUSD: Decodable {
-            let rootSymbol: BxRootSymbol
-            let currency: BxCurrency
-            let turnover24h: Double
-            let turnover30d: Double
-            let turnover365d: Double
-            let turnover: Double
+            public let rootSymbol: BxRootSymbol
+            public let currency: BxCurrency
+            public let turnover24h: Double
+            public let turnover30d: Double
+            public let turnover365d: Double
+            public let turnover: Double
         }
     }
 }

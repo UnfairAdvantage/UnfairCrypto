@@ -23,40 +23,6 @@ extension Array: StringConvertible where Element: StringConvertible {
     }
 }
 
-
-public class TradingEngine {
-    public static let shared = TradingEngine()
-
-    // MARK - Private
-
-    private var bitmexToken: UUID?
-    private var binanceToken: UUID?
-
-    private init() {
-        Bitmex.setup(id: "xxx", secret: "yyy")
-
-        // Download or subscribe to data from an API here
-
-        Bitmex.rest
-            .instrument
-            .active
-            .handleSuccess { instruments in
-                print("Got \(instruments.count) instruments!")
-        }
-
-        bitmexToken = Bitmex.socket
-            .subscribe(callback: bitmexQuoteHandler)
-    }
-
-    private func bitmexQuoteHandler(symbols: Set<String>) {
-        print("Got quotes from Bitmex for \(symbols.joined(separator: ", "))!")
-    }
-
-    deinit {
-        if let bitmexToken = bitmexToken { Bitmex.socket.unsubscribe(token: bitmexToken) }
-    }
-}
-
 public protocol Subscribable {
     func subscribe(callback: @escaping (Set<String>) -> Void) -> UUID
     func unsubscribe(token: UUID)

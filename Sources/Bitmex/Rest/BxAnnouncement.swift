@@ -40,11 +40,11 @@ public extension BxRestAPI {
 
 public extension BxResponse {
     public struct Announcement: Decodable {
-        let id: Int
-        let link: String
-        let title: String
-        let content: String
-        let date: Date
+        public let id: Int
+        public let link: String
+        public let title: String
+        public let content: String
+        public let date: Date
     }
 }
 

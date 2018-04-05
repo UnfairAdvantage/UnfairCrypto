@@ -42,12 +42,12 @@ public extension BxRestAPI {
 
 public extension BxResponse {
     public struct Leaderboard: Decodable {
-        let name: String
-        let isRealName: Bool
-        let profit: Int
+        public let name: String
+        public let isRealName: Bool
+        public let profit: Int
 
         public struct Name: Decodable {
-            let name: String
+            public let name: String
         }
     }
 }

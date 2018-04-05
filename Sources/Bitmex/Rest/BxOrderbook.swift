@@ -45,11 +45,11 @@ public enum BxSide: String, Decodable, StringConvertible {
 public extension BxResponse {
     public struct Orderbook {
         public struct Order: Decodable {
-            let symbol: BxSymbol
-            let id: Int
-            let side: BxSide
-            let size: Double // FIXME: int?
-            let price: Double
+            public let symbol: BxSymbol
+            public let id: Int
+            public let side: BxSide
+            public let size: Double // FIXME: int?
+            public let price: Double
         }
     }
 }

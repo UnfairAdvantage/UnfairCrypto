@@ -39,31 +39,31 @@ public extension BxRestAPI {
 
 public extension BxResponse {
     public struct Trade: Decodable {
-        let timestamp: Date
-        let symbol: BxSymbol
-        let side: BxSide
-        let size: Double
-        let price: Double
-        let tickDirection: BxTickDirection
-        let trdMatchID: String
-        let grossValue: Int
-        let homeNotional: Int
-        let foreignNotional: Int
+        public let timestamp: Date
+        public let symbol: BxSymbol
+        public let side: BxSide
+        public let size: Double
+        public let price: Double
+        public let tickDirection: BxTickDirection
+        public let trdMatchID: String
+        public let grossValue: Int
+        public let homeNotional: Int
+        public let foreignNotional: Int
 
         public struct BucketedTrade: Decodable {
-            let timestamp: Date
-            let symbol: BxSymbol
-            let open: Int
-            let high: Int
-            let low: Int
-            let close: Int
-            let trades: Int
-            let volume: Int
-            let vwap: Int
-            let lastSize: Int
-            let turnover: Int
-            let homeNotional: Int
-            let foreignNotional: Int
+            public let timestamp: Date
+            public let symbol: BxSymbol
+            public let open: Int
+            public let high: Int
+            public let low: Int
+            public let close: Int
+            public let trades: Int
+            public let volume: Int
+            public let vwap: Int
+            public let lastSize: Int
+            public let turnover: Int
+            public let homeNotional: Int
+            public let foreignNotional: Int
         }
     }
 }

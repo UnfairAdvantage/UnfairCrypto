@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CryptoSwift
 
 public struct Bitmex {
     
@@ -42,7 +43,8 @@ public struct Bitmex {
     static var nonce: Int64 { return Int64(round(Date().timeIntervalSinceReferenceDate*1000)) }
 
     static func signature(secret: String, verb: Method, path: String, nonce: Int64, data: String = "") -> String {
-        return try! (verb.rawValue + path + String(nonce) + data).hmac(key: secret, variant: .sha256)
+        let string = verb.rawValue + path + String(nonce) + data
+        return try! HMAC(key: secret, variant: .sha256).authenticate(Array(string.utf8)).toHexString()
     }
 }
 

@@ -74,97 +74,97 @@ public extension BxRestAPI {
 
 public extension BxResponse {
     public struct Position: Decodable { // FIXME: go through types
-        let account: Float
-        let symbol: BxSymbol
-        let currency: String
-        let underlying: String
-        let quoteCurrency: String
-        let commission: Float
-        let initMarginReq: Float
-        let maintMarginReq: Float
-        let riskLimit: Float
-        let leverage: Float
-        let crossMargin: Bool
-        let deleveragePercentile: Float
-        let rebalancedPnl: Float
-        let prevRealisedPnl: Float
-        let prevUnrealisedPnl: Float
-        let prevClosePrice: Float
-        let openingTimestamp: Date
-        let openingQty: Int
-        let openingCost: Float
-        let openingComm: Float
-        let openOrderBuyQty: Int
-        let openOrderBuyCost: Float
-        let openOrderBuyPremium: Float
-        let openOrderSellQty: Float
-        let openOrderSellCost: Float
-        let openOrderSellPremium: Float
-        let execBuyQty: Int
-        let execBuyCost: Float
-        let execSellQty: Int
-        let execSellCost: Float
-        let execQty: Int
-        let execCost: Float
-        let execComm: Float
-        let currentTimestamp: Date
-        let currentQty: Int
-        let currentCost: Float
-        let currentComm: Float
-        let realisedCost: Float
-        let unrealisedCost: Float
-        let grossOpenCost: Float
-        let grossOpenPremium: Float
-        let grossExecCost: Float
-        let isOpen: Bool
-        let markPrice: Float
-        let markValue: Float
-        let riskValue: Float
-        let homeNotional: Float
-        let foreignNotional: Float
-        let posState: String
-        let posCost: Float
-        let posCost2: Float
-        let posCross: Float
-        let posInit: Float
-        let posComm: Float
-        let posLoss: Float
-        let posMargin: Float
-        let posMaint: Float
-        let posAllowance: Float
-        let taxableMargin: Float
-        let initMargin: Float
-        let maintMargin: Float
-        let sessionMargin: Float
-        let targetExcessMargin: Float
-        let varMargin: Float
-        let realisedGrossPnl: Float
-        let realisedTax: Float
-        let realisedPnl: Float
-        let unrealisedGrossPnl: Float
-        let longBankrupt: Float
-        let shortBankrupt: Float
-        let taxBase: Float
-        let indicativeTaxRate: Float
-        let indicativeTax: Float
-        let unrealisedTax: Float
-        let unrealisedPnl: Float
-        let unrealisedPnlPcnt: Float
-        let unrealisedRoePcnt: Float
-        let simpleQty: Float
-        let simpleCost: Float
-        let simpleValue: Float
-        let simplePnl: Float
-        let simplePnlPcnt: Float
-        let avgCostPrice: Float
-        let avgEntryPrice: Float
-        let breakEvenPrice: Float
-        let marginCallPrice: Float
-        let liquidationPrice: Float
-        let bankruptPrice: Float
-        let timestamp: Date
-        let lastPrice: Float
-        let lastValue: Float
+        public let account: Float
+        public let symbol: BxSymbol
+        public let currency: String
+        public let underlying: String
+        public let quoteCurrency: String
+        public let commission: Float
+        public let initMarginReq: Float
+        public let maintMarginReq: Float
+        public let riskLimit: Float
+        public let leverage: Float
+        public let crossMargin: Bool
+        public let deleveragePercentile: Float
+        public let rebalancedPnl: Float
+        public let prevRealisedPnl: Float
+        public let prevUnrealisedPnl: Float
+        public let prevClosePrice: Float
+        public let openingTimestamp: Date
+        public let openingQty: Int
+        public let openingCost: Float
+        public let openingComm: Float
+        public let openOrderBuyQty: Int
+        public let openOrderBuyCost: Float
+        public let openOrderBuyPremium: Float
+        public let openOrderSellQty: Float
+        public let openOrderSellCost: Float
+        public let openOrderSellPremium: Float
+        public let execBuyQty: Int
+        public let execBuyCost: Float
+        public let execSellQty: Int
+        public let execSellCost: Float
+        public let execQty: Int
+        public let execCost: Float
+        public let execComm: Float
+        public let currentTimestamp: Date
+        public let currentQty: Int
+        public let currentCost: Float
+        public let currentComm: Float
+        public let realisedCost: Float
+        public let unrealisedCost: Float
+        public let grossOpenCost: Float
+        public let grossOpenPremium: Float
+        public let grossExecCost: Float
+        public let isOpen: Bool
+        public let markPrice: Float
+        public let markValue: Float
+        public let riskValue: Float
+        public let homeNotional: Float
+        public let foreignNotional: Float
+        public let posState: String
+        public let posCost: Float
+        public let posCost2: Float
+        public let posCross: Float
+        public let posInit: Float
+        public let posComm: Float
+        public let posLoss: Float
+        public let posMargin: Float
+        public let posMaint: Float
+        public let posAllowance: Float
+        public let taxableMargin: Float
+        public let initMargin: Float
+        public let maintMargin: Float
+        public let sessionMargin: Float
+        public let targetExcessMargin: Float
+        public let varMargin: Float
+        public let realisedGrossPnl: Float
+        public let realisedTax: Float
+        public let realisedPnl: Float
+        public let unrealisedGrossPnl: Float
+        public let longBankrupt: Float
+        public let shortBankrupt: Float
+        public let taxBase: Float
+        public let indicativeTaxRate: Float
+        public let indicativeTax: Float
+        public let unrealisedTax: Float
+        public let unrealisedPnl: Float
+        public let unrealisedPnlPcnt: Float
+        public let unrealisedRoePcnt: Float
+        public let simpleQty: Float
+        public let simpleCost: Float
+        public let simpleValue: Float
+        public let simplePnl: Float
+        public let simplePnlPcnt: Float
+        public let avgCostPrice: Float
+        public let avgEntryPrice: Float
+        public let breakEvenPrice: Float
+        public let marginCallPrice: Float
+        public let liquidationPrice: Float
+        public let bankruptPrice: Float
+        public let timestamp: Date
+        public let lastPrice: Float
+        public let lastValue: Float
     }
 }
 

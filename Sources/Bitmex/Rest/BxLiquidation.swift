@@ -34,11 +34,11 @@ public extension BxRestAPI {
 
 public extension BxResponse {
     public struct Liquidation: Decodable {
-        let orderID: String
-        let symbol: BxSymbol
-        let side: BxSide
-        let price: Double
-        let leavesQty: Int
+        public let orderID: String
+        public let symbol: BxSymbol
+        public let side: BxSide
+        public let price: Double
+        public let leavesQty: Int
     }
 }
 

@@ -41,19 +41,19 @@ public extension BxResponse {
     public typealias Schemata = [String : Schema]
 
     public struct Schema: Decodable {
-        let keys: [String]
-        let types: [String : String]
+        public let keys: [String]
+        public let types: [String : String]
 
         public struct WebsocketHelp: Decodable {
-            let info: String
-            let usage: String
-            let ops: [String]
-            let subscribe: String
-            let subscriptionSubjects: SubscriptionSubjects
+            public let info: String
+            public let usage: String
+            public let ops: [String]
+            public let subscribe: String
+            public let subscriptionSubjects: SubscriptionSubjects
 
             public struct SubscriptionSubjects: Decodable {
-                let authenticationRequired: [String]
-                let `public`: [String]
+                public let authenticationRequired: [String]
+                public let `public`: [String]
             }
         }
     }

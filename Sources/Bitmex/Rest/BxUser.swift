@@ -166,85 +166,85 @@ public extension BxRestAPI {
 
 public extension BxResponse {
     public struct User: Decodable {
-        let id: Double
-        let ownerId: Double?
-        let firstname: String
-        let lastname: String
-        let username: String
-        let email: String
-        let phone: String?
-        let created: Date
-        let lastUpdated: Date
-        let preferences: BxPreferences
-        let TFAEnabled: String
-        let affiliateID: String
-        let pgpPubKey: String?
-        let country: String
+        public let id: Double
+        public let ownerId: Double?
+        public let firstname: String
+        public let lastname: String
+        public let username: String
+        public let email: String
+        public let phone: String?
+        public let created: Date
+        public let lastUpdated: Date
+        public let preferences: BxPreferences
+        public let TFAEnabled: String
+        public let affiliateID: String
+        public let pgpPubKey: String?
+        public let country: String
 
         public struct AffiliateStatus: Decodable {
-            let account: Double
-            let currency: String
-            let prevPayout: Double
-            let prevTurnover: Double
-            let prevComm: Double
-            let prevTimestamp: Date
-            let execTurnover: Double
-            let execComm: Double
-            let totalReferrals: Double
-            let totalTurnover: Double
-            let totalComm: Double
-            let payoutPcnt: Double
-            let pendingPayout: Double
-            let timestamp: Date
-            let referrerAccount: Int
+            public let account: Double
+            public let currency: String
+            public let prevPayout: Double
+            public let prevTurnover: Double
+            public let prevComm: Double
+            public let prevTimestamp: Date
+            public let execTurnover: Double
+            public let execComm: Double
+            public let totalReferrals: Double
+            public let totalTurnover: Double
+            public let totalComm: Double
+            public let payoutPcnt: Double
+            public let pendingPayout: Double
+            public let timestamp: Date
+            public let referrerAccount: Int
         }
 
         public struct CancelWithdrawal: Decodable {
-            let transactID: String
-            let account: Double
-            let currency: String
-            let transactType: String
-            let amount: Double
-            let fee: Double
-            let transactStatus: String
-            let address: String
-            let tx: String
-            let text: String
-            let transactTime: Date
-            let timestamp: Date
+            public let transactID: String
+            public let account: Double
+            public let currency: String
+            public let transactType: String
+            public let amount: Double
+            public let fee: Double
+            public let transactStatus: String
+            public let address: String
+            public let tx: String
+            public let text: String
+            public let transactTime: Date
+            public let timestamp: Date
         }
 
         public typealias CheckReferralCode = Double
 
         public struct Commission: Decodable {
-            let makerFee: Double
-            let takerFee: Double
-            let settlementFee: Double
-            let maxFee: Int
+            public let makerFee: Double
+            public let takerFee: Double
+            public let settlementFee: Double
+            public let maxFee: Int
         }
 
         public struct ConfirmEmail: Decodable {
-            let id: String
-            let ttl: Int
-            let created: Date
-            let userId: Int
+            public let id: String
+            public let ttl: Int
+            public let created: Date
+            public let userId: Int
         }
 
         public typealias ConfirmEnableTFA = Bool
 
         public struct ConfirmWithdrawal: Decodable {
-            let transactID: String
-            let account: Double
-            let currency: String
-            let transactType: String
-            let amount: Double
-            let fee: Double
-            let transactStatus: String
-            let address: String
-            let tx: String
-            let text: String
-            let transactTime: Date
-            let timestamp: Date
+            public let transactID: String
+            public let account: Double
+            public let currency: String
+            public let transactType: String
+            public let amount: Double
+            public let fee: Double
+            public let transactStatus: String
+            public let address: String
+            public let tx: String
+            public let text: String
+            public let transactTime: Date
+            public let timestamp: Date
         }
 
         public typealias DepositAddress = String
@@ -256,126 +256,126 @@ public extension BxResponse {
         public typealias LogoutAll = Double
 
         public struct Margin: Decodable {
-            let account: Double
-            let currency: String
-            let riskLimit: Double
-            let prevState: String
-            let state: String
-            let action: String
-            let amount: Double
-            let pendingCredit: Double
-            let pendingDebit: Double
-            let confirmedDebit: Double
-            let prevRealisedPnl: Double
-            let prevUnrealisedPnl: Double
-            let grossComm: Double
-            let grossOpenCost: Double
-            let grossOpenPremium: Double
-            let grossExecCost: Double
-            let grossMarkValue: Double
-            let riskValue: Double
-            let taxableMargin: Double
-            let initMargin: Double
-            let maintMargin: Double
-            let sessionMargin: Double
-            let targetExcessMargin: Double
-            let varMargin: Double
-            let realisedPnl: Double
-            let unrealisedPnl: Double
-            let indicativeTax: Double
-            let unrealisedProfit: Double
-            let syntheticMargin: Double
-            let walletBalance: Double
-            let marginBalance: Double
-            let marginBalancePcnt: Double
-            let marginLeverage: Double
-            let marginUsedPcnt: Double
-            let excessMargin: Double
-            let excessMarginPcnt: Double
-            let availableMargin: Double
-            let withdrawableMargin: Double
-            let timestamp: Date
-            let grossLastValue: Double
-            let commission: Double
+            public let account: Double
+            public let currency: String
+            public let riskLimit: Double
+            public let prevState: String
+            public let state: String
+            public let action: String
+            public let amount: Double
+            public let pendingCredit: Double
+            public let pendingDebit: Double
+            public let confirmedDebit: Double
+            public let prevRealisedPnl: Double
+            public let prevUnrealisedPnl: Double
+            public let grossComm: Double
+            public let grossOpenCost: Double
+            public let grossOpenPremium: Double
+            public let grossExecCost: Double
+            public let grossMarkValue: Double
+            public let riskValue: Double
+            public let taxableMargin: Double
+            public let initMargin: Double
+            public let maintMargin: Double
+            public let sessionMargin: Double
+            public let targetExcessMargin: Double
+            public let varMargin: Double
+            public let realisedPnl: Double
+            public let unrealisedPnl: Double
+            public let indicativeTax: Double
+            public let unrealisedProfit: Double
+            public let syntheticMargin: Double
+            public let walletBalance: Double
+            public let marginBalance: Double
+            public let marginBalancePcnt: Double
+            public let marginLeverage: Double
+            public let marginUsedPcnt: Double
+            public let excessMargin: Double
+            public let excessMarginPcnt: Double
+            public let availableMargin: Double
+            public let withdrawableMargin: Double
+            public let timestamp: Date
+            public let grossLastValue: Double
+            public let commission: Double
         }
 
         public struct WithdrawalFee: Decodable {
-            let currency: BxCurrency
-            let fee: Int
-            let minFee: Int
+            public let currency: BxCurrency
+            public let fee: Int
+            public let minFee: Int
         }
 
         public typealias RequestEnableTFA = Bool
 
         public struct RequestWithdrawal: Decodable {
-            let transactID: String
-            let account: Double
-            let currency: String
-            let transactType: String
-            let amount: Double
-            let fee: Double
-            let transactStatus: String
-            let address: String
-            let tx: String
-            let text: String
-            let transactTime: Date
-            let timestamp: Date
+            public let transactID: String
+            public let account: Double
+            public let currency: String
+            public let transactType: String
+            public let amount: Double
+            public let fee: Double
+            public let transactStatus: String
+            public let address: String
+            public let tx: String
+            public let text: String
+            public let transactTime: Date
+            public let timestamp: Date
         }
 
         public struct Wallet: Decodable {
-            let account: Double
-            let currency: String
-            let prevDeposited: Double
-            let prevWithdrawn: Double
-            let prevTransferIn: Double
-            let prevTransferOut: Double
-            let prevAmount: Double
-            let prevTimestamp: Date
-            let deltaDeposited: Double
-            let deltaWithdrawn: Double
-            let deltaTransferIn: Double
-            let deltaTransferOut: Double
-            let deltaAmount: Double
-            let deposited: Double
-            let withdrawn: Double
-            let transferIn: Double
-            let transferOut: Double
-            let amount: Double
-            let pendingCredit: Double
-            let pendingDebit: Double
-            let confirmedDebit: Double
-            let timestamp: Date
-            let addr: String
-            let script: String
-            let withdrawalLock: [String]
+            public let account: Double
+            public let currency: String
+            public let prevDeposited: Double
+            public let prevWithdrawn: Double
+            public let prevTransferIn: Double
+            public let prevTransferOut: Double
+            public let prevAmount: Double
+            public let prevTimestamp: Date
+            public let deltaDeposited: Double
+            public let deltaWithdrawn: Double
+            public let deltaTransferIn: Double
+            public let deltaTransferOut: Double
+            public let deltaAmount: Double
+            public let deposited: Double
+            public let withdrawn: Double
+            public let transferIn: Double
+            public let transferOut: Double
+            public let amount: Double
+            public let pendingCredit: Double
+            public let pendingDebit: Double
+            public let confirmedDebit: Double
+            public let timestamp: Date
+            public let addr: String
+            public let script: String
+            public let withdrawalLock: [String]
         }
 
         public struct WalletHistory: Decodable {
-            let transactID: String
-            let account: Double
-            let currency: String
-            let transactType: String
-            let amount: Double
-            let fee: Double?
-            let transactStatus: String
-            let address: String
-            let tx: String?
-            let text: String?
-            let transactTime: Date?
-            let timestamp: Date?
+            public let transactID: String
+            public let account: Double
+            public let currency: String
+            public let transactType: String
+            public let amount: Double
+            public let fee: Double?
+            public let transactStatus: String
+            public let address: String
+            public let tx: String?
+            public let text: String?
+            public let transactTime: Date?
+            public let timestamp: Date?
         }
 
         public struct WalletSummary: Decodable {
-            let account: Int
-            let currency: BxCurrency
-            let transactType: BxTransactionType
-            let symbol: BxSymbol
-            let amount: Int
-            let pendingDebit: Int
-            let realisedPnl: Int
-            let walletBalance: Int
-            let unrealisedPnl: Int
-            let marginBalance: Int
+            public let account: Int
+            public let currency: BxCurrency
+            public let transactType: BxTransactionType
+            public let symbol: BxSymbol
+            public let amount: Int
+            public let pendingDebit: Int
+            public let realisedPnl: Int
+            public let walletBalance: Int
+            public let unrealisedPnl: Int
+            public let marginBalance: Int
         }
     }
 }

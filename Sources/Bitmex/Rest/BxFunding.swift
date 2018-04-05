@@ -34,11 +34,11 @@ public extension BxRestAPI {
 
 public extension BxResponse {
     public struct Funding: Decodable {
-        let symbol: BxSymbol
-        let timestamp: Date
-        let fundingInterval: Date
-        let fundingRate: Float
-        let fundingRateDaily: Float
+        public let symbol: BxSymbol
+        public let timestamp: Date
+        public let fundingInterval: Date
+        public let fundingRate: Float
+        public let fundingRateDaily: Float
     }
 }
 

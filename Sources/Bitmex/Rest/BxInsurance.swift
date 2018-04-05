@@ -34,9 +34,9 @@ public extension BxRestAPI {
 
 public extension BxResponse {
     public struct Insurance: Decodable {
-        let currency: String // FIXME: enum, rootsymbol?
-        let timestamp: Date
-        let walletBalance: Int
+        public let currency: String // FIXME: enum, rootsymbol?
+        public let timestamp: Date
+        public let walletBalance: Int
     }
 }
 

@@ -34,15 +34,15 @@ public extension BxRestAPI {
 
 public extension BxResponse {
     public struct Notification: Decodable {
-        let id: Int
-        let date: Date
-        let title: String
-        let body: String
-        let ttl: Int
-        let type: String // fixme: enum
-        let closable: Bool
-        let persist: Bool
-        let waitForVisibility: Bool
-        let sound: String
+        public let id: Int
+        public let date: Date
+        public let title: String
+        public let body: String
+        public let ttl: Int
+        public let type: String // fixme: enum
+        public let closable: Bool
+        public let persist: Bool
+        public let waitForVisibility: Bool
+        public let sound: String
     }
 }

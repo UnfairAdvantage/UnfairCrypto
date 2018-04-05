@@ -34,15 +34,15 @@ public extension BxRestAPI {
 
 public extension BxResponse {
     public struct Settlement: Decodable {
-        let timestamp: Date
-        let symbol: BxSymbol
-        let settlementType: SettlementType
-        let settledPrice: Double
-        let optionStrikePrice: Double?
-        let optionUnderlyingPrice: Double?
-        let bankrupt: Double?
-        let taxBase: Double?
-        let taxRate: Double?
+        public let timestamp: Date
+        public let symbol: BxSymbol
+        public let settlementType: SettlementType
+        public let settledPrice: Double
+        public let optionStrikePrice: Double?
+        public let optionUnderlyingPrice: Double?
+        public let bankrupt: Double?
+        public let taxBase: Double?
+        public let taxRate: Double?
 
         public enum SettlementType: String, Decodable {
             case settlement = "Settlement"

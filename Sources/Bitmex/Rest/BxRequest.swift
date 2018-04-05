@@ -338,9 +338,9 @@ public enum BxTFAType: String, StringConvertible {
 }
 
 public struct BxPassword {
-    let old: String
-    let new: String
-    let confirmNew: String
+    public let old: String
+    public let new: String
+    public let confirmNew: String
 
     public init(_ oldPassword: String, _ newPassword: String, _ confirmNewPassword: String) {
         self.old = oldPassword
@@ -408,35 +408,35 @@ public enum BxState: String, Codable, StringConvertible {
 }
 
 public struct BxPreferences: Codable, StringConvertible {
-//    let alertOnLiquidations: Bool?
-//    let animationsEnabled: Bool?
-//    let announcementsLastSeen: Date
-//    let chatChannelID: Double?
-//    let colorTheme: String?
-//    let currency: String
-//    let debug: Bool?
-//    let disableEmails: [String]?
-    let hideConfirmDialogs: [String]
-//    let hideConnectionModal: Bool?
-//    let hideFromLeaderboard: Bool
-//    let hideNameFromLeaderboard: Bool
-//    let hideNotifications: [String]?
-//    let locale: BxLocale
-//    let msgsSeen: [String]
-//    //            let orderBookBinning": {},
-//    let orderBookType: String?
-//    let orderClearImmediate: Bool
-//    let orderControlsPlusMinus: Bool?
-    let showLocaleNumbers: Bool
-//    let sounds: [String]?
-//    let strictIPCheck: Bool
-//    let strictTimeout: Bool
-//    let tickerGroup: String?
-//    let tickerPinned: Bool?
-//    let tradeLayout: String
+//    public let alertOnLiquidations: Bool?
+//    public let animationsEnabled: Bool?
+//    public let announcementsLastSeen: Date
+//    public let chatChannelID: Double?
+//    public let colorTheme: String?
+//    public let currency: String
+//    public let debug: Bool?
+//    public let disableEmails: [String]?
+    public let hideConfirmDialogs: [String]
+//    public let hideConnectionModal: Bool?
+//    public let hideFromLeaderboard: Bool
+//    public let hideNameFromLeaderboard: Bool
+//    public let hideNotifications: [String]?
+//    public let locale: BxLocale
+//    public let msgsSeen: [String]
+//    //            public let orderBookBinning": {},
+//    public let orderBookType: String?
+//    public let orderClearImmediate: Bool
+//    public let orderControlsPlusMinus: Bool?
+    public let showLocaleNumbers: Bool
+//    public let sounds: [String]?
+//    public let strictIPCheck: Bool
+//    public let strictTimeout: Bool
+//    public let tickerGroup: String?
+//    public let tickerPinned: Bool?
+//    public let tradeLayout: String
 
     public var stringValue: String { // FIXME: how to serialise and send this?
-//        let encoder = JSONEncoder()
+//        public let encoder = JSONEncoder()
 //        if let json = try? encoder.encode(self), let string = String(data: json, encoding: .utf8) {
 //            let escaped = URLEncoding.init().escape(string)
 //            print(escaped)
@@ -457,8 +457,8 @@ public typealias BxTickDirection = String
 //}
 
 public struct BxInterval: Decodable, StringConvertible {
-    let rootSymbol: BxRootSymbol
-    let timeframe: BxTimeframe
+    public let rootSymbol: BxRootSymbol
+    public let timeframe: BxTimeframe
 
     public var stringValue: String {
         return rootSymbol.stringValue + ":" + timeframe.stringValue
@@ -539,6 +539,5 @@ public extension BxInterval {
 
 public enum BxKey: String {
     case fee
-
 }
 

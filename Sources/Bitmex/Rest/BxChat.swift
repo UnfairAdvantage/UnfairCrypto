@@ -50,22 +50,22 @@ public extension BxRestAPI {
 
 public extension BxResponse {
     public struct Chat: Decodable {
-        let id: Double
-        let date: Date
-        let user: String
-        let message: String
-        let html: String
-        let fromBot: Bool
-        let channelID: Int
+        public let id: Double
+        public let date: Date
+        public let user: String
+        public let message: String
+        public let html: String
+        public let fromBot: Bool
+        public let channelID: Int
 
         public struct Channel: Decodable {
-            let id: Int
-            let name: String
+            public let id: Int
+            public let name: String
         }
 
         public struct Connected: Decodable {
-            let users: Double
-            let bots: String
+            public let users: Double
+            public let bots: String
         }
     }
 }

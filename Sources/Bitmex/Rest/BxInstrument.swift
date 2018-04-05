@@ -60,215 +60,215 @@ public extension BxRestAPI {
 
 public extension BxResponse {
     public struct Instrument: Decodable {
-        let symbol: BxSymbol
-        let rootSymbol: BxRootSymbol
-        let state: BxState
-        let typ: String?
-        let listing: Date?
-        let front: Date?
-        let expiry: Date?
-        let settle: Date?
-        let relistInterval: Date?
-        let inverseLeg: String?
-        let sellLeg: String?
-        let buyLeg: String?
-        let positionCurrency: String?
-        let underlying: String?
-        let quoteCurrency: String?
-        let underlyingSymbol: String?
-        let reference: String?
-        let referenceSymbol: String?
-        let calcInterval: Date?
-        let publishInterval: Date?
-        let publishTime: Date?
-        let maxOrderQty: Double?
-        let maxPrice: Double?
-        let lotSize: Double?
-        let tickSize: Double?
-        let multiplier: Double?
-        let settlCurrency: String?
-        let underlyingToPositionMultiplier: Double?
-        let underlyingToSettleMultiplier: Double?
-        let quoteToSettleMultiplier: Double?
-        let isQuanto: Bool?
-        let isInverse: Bool?
-        let initMargin: Double?
-        let maintMargin: Double?
-        let riskLimit: Double?
-        let riskStep: Double?
-        let limit: Double?
-        let capped: Bool?
-        let taxed: Bool?
-        let deleverage: Bool?
-        let makerFee: Double?
-        let takerFee: Double?
-        let settlementFee: Double?
-        let insuranceFee: Double?
-        let fundingBaseSymbol: String? // fixme
-        let fundingQuoteSymbol: String?
-        let fundingPremiumSymbol: String?
-        let fundingTimestamp: Date?
-        let fundingInterval: Date?
-        let fundingRate: Double?
-        let indicativeFundingRate: Double?
-        let rebalanceTimestamp: Date?
-        let rebalanceInterval: Date?
-        let openingTimestamp: Date?
-        let closingTimestamp: Date?
-        let sessionInterval: Date?
-        let prevClosePrice: Double?
-        let limitDownPrice: Double?
-        let limitUpPrice: Double?
-        let bankruptLimitDownPrice: Double?
-        let bankruptLimitUpPrice: Double?
-        let prevTotalVolume: Double?
-        let totalVolume: Double?
-        let volume: Double?
-        let volume24h: Double?
-        let prevTotalTurnover: Double?
-        let totalTurnover: Double?
-        let turnover: Double?
-        let turnover24h: Double?
-        let prevPrice24h: Double?
-        let vwap: Double?
-        let highPrice: Double?
-        let lowPrice: Double?
-        let lastPrice: Double?
-        let lastPriceProtected: Double?
-        let lastTickDirection: BxTickDirection
-        let lastChangePcnt: Double?
-        let bidPrice: Double?
-        let midPrice: Double?
-        let askPrice: Double?
-        let impactBidPrice: Double?
-        let impactMidPrice: Double?
-        let impactAskPrice: Double?
-        let hasLiquidity: Bool?
-        let openInterest: Double?
-        let openValue: Double?
-        let fairMethod: String?
-        let fairBasisRate: Double?
-        let fairBasis: Double?
-        let fairPrice: Double?
-        let markMethod: String // fixme: enum
-        let markPrice: Double?
-        let indicativeTaxRate: Double?
-        let indicativeSettlePrice: Double?
-        let settledPrice: Double?
-        let timestamp: Date?
+        public let symbol: BxSymbol
+        public let rootSymbol: BxRootSymbol
+        public let state: BxState
+        public let typ: String?
+        public let listing: Date?
+        public let front: Date?
+        public let expiry: Date?
+        public let settle: Date?
+        public let relistInterval: Date?
+        public let inverseLeg: String?
+        public let sellLeg: String?
+        public let buyLeg: String?
+        public let positionCurrency: String?
+        public let underlying: String?
+        public let quoteCurrency: String?
+        public let underlyingSymbol: String?
+        public let reference: String?
+        public let referenceSymbol: String?
+        public let calcInterval: Date?
+        public let publishInterval: Date?
+        public let publishTime: Date?
+        public let maxOrderQty: Double?
+        public let maxPrice: Double?
+        public let lotSize: Double?
+        public let tickSize: Double?
+        public let multiplier: Double?
+        public let settlCurrency: String?
+        public let underlyingToPositionMultiplier: Double?
+        public let underlyingToSettleMultiplier: Double?
+        public let quoteToSettleMultiplier: Double?
+        public let isQuanto: Bool?
+        public let isInverse: Bool?
+        public let initMargin: Double?
+        public let maintMargin: Double?
+        public let riskLimit: Double?
+        public let riskStep: Double?
+        public let limit: Double?
+        public let capped: Bool?
+        public let taxed: Bool?
+        public let deleverage: Bool?
+        public let makerFee: Double?
+        public let takerFee: Double?
+        public let settlementFee: Double?
+        public let insuranceFee: Double?
+        public let fundingBaseSymbol: String? // fixme
+        public let fundingQuoteSymbol: String?
+        public let fundingPremiumSymbol: String?
+        public let fundingTimestamp: Date?
+        public let fundingInterval: Date?
+        public let fundingRate: Double?
+        public let indicativeFundingRate: Double?
+        public let rebalanceTimestamp: Date?
+        public let rebalanceInterval: Date?
+        public let openingTimestamp: Date?
+        public let closingTimestamp: Date?
+        public let sessionInterval: Date?
+        public let prevClosePrice: Double?
+        public let limitDownPrice: Double?
+        public let limitUpPrice: Double?
+        public let bankruptLimitDownPrice: Double?
+        public let bankruptLimitUpPrice: Double?
+        public let prevTotalVolume: Double?
+        public let totalVolume: Double?
+        public let volume: Double?
+        public let volume24h: Double?
+        public let prevTotalTurnover: Double?
+        public let totalTurnover: Double?
+        public let turnover: Double?
+        public let turnover24h: Double?
+        public let prevPrice24h: Double?
+        public let vwap: Double?
+        public let highPrice: Double?
+        public let lowPrice: Double?
+        public let lastPrice: Double?
+        public let lastPriceProtected: Double?
+        public let lastTickDirection: BxTickDirection
+        public let lastChangePcnt: Double?
+        public let bidPrice: Double?
+        public let midPrice: Double?
+        public let askPrice: Double?
+        public let impactBidPrice: Double?
+        public let impactMidPrice: Double?
+        public let impactAskPrice: Double?
+        public let hasLiquidity: Bool?
+        public let openInterest: Double?
+        public let openValue: Double?
+        public let fairMethod: String?
+        public let fairBasisRate: Double?
+        public let fairBasis: Double?
+        public let fairPrice: Double?
+        public let markMethod: String // fixme: enum
+        public let markPrice: Double?
+        public let indicativeTaxRate: Double?
+        public let indicativeSettlePrice: Double?
+        public let settledPrice: Double?
+        public let timestamp: Date?
 
         public struct Active: Decodable {
-            let symbol: BxSymbol
-            let rootSymbol: BxRootSymbol
-            let state: BxState
-            let typ: String
-            let listing: Date
-            let front: Date
-            let expiry: Date?
-            let settle: Date?
-            let relistInterval: Date?
-            let inverseLeg: String
-            let sellLeg: String
-            let buyLeg: String
-            let positionCurrency: String
-            let underlying: String
-            let quoteCurrency: String
-            let underlyingSymbol: String
-            let reference: String
-            let referenceSymbol: String
-            let calcInterval: Date?
-            let publishInterval: Date?
-            let publishTime: Date?
-            let maxOrderQty: Double
-            let maxPrice: Double
-            let lotSize: Double
-            let tickSize: Double
-            let multiplier: Double
-            let settlCurrency: String
-            let underlyingToPositionMultiplier: Double?
-            let underlyingToSettleMultiplier: Double?
-            let quoteToSettleMultiplier: Double?
-            let isQuanto: Bool
-            let isInverse: Bool
-            let initMargin: Double?
-            let maintMargin: Double?
-            let riskLimit: Double?
-            let riskStep: Double
-            let limit: Double?
-            let capped: Bool
-            let taxed: Bool
-            let deleverage: Bool
-            let makerFee: Double
-            let takerFee: Double
-            let settlementFee: Double
-            let insuranceFee: Double
-            let fundingBaseSymbol: String
-            let fundingQuoteSymbol: String
-            let fundingPremiumSymbol: String
-            let fundingTimestamp: Date?
-            let fundingInterval: Date?
-            let fundingRate: Double?
-            let indicativeFundingRate: Double?
-            let rebalanceTimestamp: Date?
-            let rebalanceInterval: Date?
-            let openingTimestamp: Date
-            let closingTimestamp: Date
-            let sessionInterval: Date
-            let prevClosePrice: Double?
-            let limitDownPrice: Double?
-            let limitUpPrice: Double?
-            let bankruptLimitDownPrice: Double?
-            let bankruptLimitUpPrice: Double?
-            let prevTotalVolume: Double
-            let totalVolume: Double
-            let volume: Double
-            let volume24h: Double
-            let prevTotalTurnover: Double
-            let totalTurnover: Double
-            let turnover: Double
-            let turnover24h: Double
-            let prevPrice24h: Double?
-            let vwap: Double?
-            let highPrice: Double?
-            let lowPrice: Double?
-            let lastPrice: Double?
-            let lastPriceProtected: Double?
-            let lastTickDirection: BxTickDirection
-            let lastChangePcnt: Double?
-            let bidPrice: Double
-            let midPrice: Double
-            let askPrice: Double
-            let impactBidPrice: Double?
-            let impactMidPrice: Double?
-            let impactAskPrice: Double?
-            let hasLiquidity: Bool
-            let openInterest: Double
-            let openValue: Double
-            let fairMethod: String
-            let fairBasisRate: Double?
-            let fairBasis: Double?
-            let fairPrice: Double
-            let markMethod: String // fixme: enum
-            let markPrice: Double
-            let indicativeTaxRate: Double?
-            let indicativeSettlePrice: Double?
-            let settledPrice: Double?
-            let timestamp: Date
+            public let symbol: BxSymbol
+            public let rootSymbol: BxRootSymbol
+            public let state: BxState
+            public let typ: String
+            public let listing: Date
+            public let front: Date
+            public let expiry: Date?
+            public let settle: Date?
+            public let relistInterval: Date?
+            public let inverseLeg: String
+            public let sellLeg: String
+            public let buyLeg: String
+            public let positionCurrency: String
+            public let underlying: String
+            public let quoteCurrency: String
+            public let underlyingSymbol: String
+            public let reference: String
+            public let referenceSymbol: String
+            public let calcInterval: Date?
+            public let publishInterval: Date?
+            public let publishTime: Date?
+            public let maxOrderQty: Double
+            public let maxPrice: Double
+            public let lotSize: Double
+            public let tickSize: Double
+            public let multiplier: Double
+            public let settlCurrency: String
+            public let underlyingToPositionMultiplier: Double?
+            public let underlyingToSettleMultiplier: Double?
+            public let quoteToSettleMultiplier: Double?
+            public let isQuanto: Bool
+            public let isInverse: Bool
+            public let initMargin: Double?
+            public let maintMargin: Double?
+            public let riskLimit: Double?
+            public let riskStep: Double
+            public let limit: Double?
+            public let capped: Bool
+            public let taxed: Bool
+            public let deleverage: Bool
+            public let makerFee: Double
+            public let takerFee: Double
+            public let settlementFee: Double
+            public let insuranceFee: Double
+            public let fundingBaseSymbol: String
+            public let fundingQuoteSymbol: String
+            public let fundingPremiumSymbol: String
+            public let fundingTimestamp: Date?
+            public let fundingInterval: Date?
+            public let fundingRate: Double?
+            public let indicativeFundingRate: Double?
+            public let rebalanceTimestamp: Date?
+            public let rebalanceInterval: Date?
+            public let openingTimestamp: Date
+            public let closingTimestamp: Date
+            public let sessionInterval: Date
+            public let prevClosePrice: Double?
+            public let limitDownPrice: Double?
+            public let limitUpPrice: Double?
+            public let bankruptLimitDownPrice: Double?
+            public let bankruptLimitUpPrice: Double?
+            public let prevTotalVolume: Double
+            public let totalVolume: Double
+            public let volume: Double
+            public let volume24h: Double
+            public let prevTotalTurnover: Double
+            public let totalTurnover: Double
+            public let turnover: Double
+            public let turnover24h: Double
+            public let prevPrice24h: Double?
+            public let vwap: Double?
+            public let highPrice: Double?
+            public let lowPrice: Double?
+            public let lastPrice: Double?
+            public let lastPriceProtected: Double?
+            public let lastTickDirection: BxTickDirection
+            public let lastChangePcnt: Double?
+            public let bidPrice: Double
+            public let midPrice: Double
+            public let askPrice: Double
+            public let impactBidPrice: Double?
+            public let impactMidPrice: Double?
+            public let impactAskPrice: Double?
+            public let hasLiquidity: Bool
+            public let openInterest: Double
+            public let openValue: Double
+            public let fairMethod: String
+            public let fairBasisRate: Double?
+            public let fairBasis: Double?
+            public let fairPrice: Double
+            public let markMethod: String // fixme: enum
+            public let markPrice: Double
+            public let indicativeTaxRate: Double?
+            public let indicativeSettlePrice: Double?
+            public let settledPrice: Double?
+            public let timestamp: Date
         }
 
         public struct Constituent: Decodable {
-            let timestamp: Date
-            let symbol: String
-            let indexSymbol: String
-            let reference: String
-            let lastPrice: Double
-            let weight: Double
-            let logged: Date
+            public let timestamp: Date
+            public let symbol: String
+            public let indexSymbol: String
+            public let reference: String
+            public let lastPrice: Double
+            public let weight: Double
+            public let logged: Date
         }
 
         public struct Intervals: Decodable {
-            let intervals: [BxInterval]
-            let symbols: [BxSymbol]
+            public let intervals: [BxInterval]
+            public let symbols: [BxSymbol]
         }
     }
 }

@@ -39,52 +39,52 @@ public extension BxRestAPI {
 
 public extension BxResponse {
     public struct Execution: Decodable {
-        let execID: String
-        let orderID: String
-        let clOrdID: String
-        let clOrdLinkID: String
-        let account: Double
-        let symbol: String
-        let side: String
-        let lastQty: Double
-        let lastPx: Double
-        let underlyingLastPx: Double
-        let lastMkt: String
-        let lastLiquidityInd: String
-        let simpleOrderQty: Double
-        let orderQty: Double
-        let price: Double
-        let displayQty: Double
-        let stopPx: Double
-        let pegOffsetValue: Double
-        let pegPriceType: String
-        let currency: String
-        let settlCurrency: String
-        let execType: String
-        let ordType: String
-        let timeInForce: String
-        let execInst: String
-        let contingencyType: String
-        let exDestination: String
-        let ordStatus: String
-        let triggered: String
-        let workingIndicator: Bool
-        let ordRejReason: String
-        let simpleLeavesQty: Double
-        let leavesQty: Double
-        let simpleCumQty: Double
-        let cumQty: Double
-        let avgPx: Double
-        let commission: Double
-        let tradePublishIndicator: String
-        let multiLegReportingType: String
-        let text: String
-        let trdMatchID: String
-        let execCost: Double
-        let execComm: Double
-        let homeNotional: Double
-        let foreignNotional: Double
-        let transactTime: Date
-        let timestamp: Date
+        public let execID: String
+        public let orderID: String
+        public let clOrdID: String
+        public let clOrdLinkID: String
+        public let account: Double
+        public let symbol: String
+        public let side: String
+        public let lastQty: Double
+        public let lastPx: Double
+        public let underlyingLastPx: Double
+        public let lastMkt: String
+        public let lastLiquidityInd: String
+        public let simpleOrderQty: Double
+        public let orderQty: Double
+        public let price: Double
+        public let displayQty: Double
+        public let stopPx: Double
+        public let pegOffsetValue: Double
+        public let pegPriceType: String
+        public let currency: String
+        public let settlCurrency: String
+        public let execType: String
+        public let ordType: String
+        public let timeInForce: String
+        public let execInst: String
+        public let contingencyType: String
+        public let exDestination: String
+        public let ordStatus: String
+        public let triggered: String
+        public let workingIndicator: Bool
+        public let ordRejReason: String
+        public let simpleLeavesQty: Double
+        public let leavesQty: Double
+        public let simpleCumQty: Double
+        public let cumQty: Double
+        public let avgPx: Double
+        public let commission: Double
+        public let tradePublishIndicator: String
+        public let multiLegReportingType: String
+        public let text: String
+        public let trdMatchID: String
+        public let execCost: Double
+        public let execComm: Double
+        public let homeNotional: Double
+        public let foreignNotional: Double
+        public let transactTime: Date
+        public let timestamp: Date
     }
 }
