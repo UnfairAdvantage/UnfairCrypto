@@ -154,15 +154,15 @@ public class BxSocketAPI: QuoteStreamer {
 
 
 public struct BxOrderbookChange: Decodable {
-    enum Action: String, Decodable {
+    public enum Action: String, Decodable {
         case partial
         case update
         case insert
         case delete
     }
 
-    let action: Action
-    let data: [BxSubscriptionData]
+    public let action: Action
+    public let data: [BxSubscriptionData]
 }
 
 public enum Side: String, Decodable {
@@ -171,26 +171,26 @@ public enum Side: String, Decodable {
 }
 
 public struct BxSubscriptionData: Decodable {
-    let symbol: String
-    let side: Side
-    let id: Int64
-    let size: Int?
-    let price: Double?
+    public let symbol: String
+    public let side: Side
+    public let id: Int64
+    public let size: Int?
+    public let price: Double?
 
-    var order: BxOrder? {
+    public var order: BxOrder? {
         guard let size = size, let price = price else { return nil }
         return BxOrder(symbol: symbol, side: side, id: id, size: size, price: price)
     }
 }
 
 public struct BxOrder {
-    let symbol: String
-    let side: Side
-    let id: Int64
-    let size: Int
-    let price: Double
+    public let symbol: String
+    public let side: Side
+    public let id: Int64
+    public let size: Int
+    public let price: Double
 
-    func updated(_ change: BxSubscriptionData) -> BxOrder {
+    public func updated(_ change: BxSubscriptionData) -> BxOrder {
         return BxOrder(symbol: symbol, side: side, id: id, size: change.size ?? size, price: change.price ?? price)
     }
 }
@@ -198,13 +198,6 @@ public struct BxOrder {
 extension BxOrder {
     var quote: Quote {
         return Quote(price: price, size: Double(size))
-    }
-}
-
-extension Quote: Equatable {
-    // FIXME: Can be removed in Swift 4.1
-    public static func ==(lhs: Quote, rhs: Quote) -> Bool {
-        return  lhs.size == rhs.size && lhs.price == rhs.price
     }
 }
 

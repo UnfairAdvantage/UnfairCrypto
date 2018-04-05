@@ -34,7 +34,7 @@ public protocol QuoteStreamer: Subscribable {
     var state: SocketState { get }
 }
 
-public struct Quote: Decodable, CustomStringConvertible {
+public struct Quote: Decodable, Equatable, CustomStringConvertible {
     let price: Double
     let size: Double
 
