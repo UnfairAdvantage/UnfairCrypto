@@ -26,8 +26,6 @@ public class BxSocketAPI: QuoteStreamer {
     private var orderbooks = [String : [Int64 : BxOrder]]()
 
     public init(baseUrl: String, apiId: String, apiSecret: String) {
-        print("BxSocketAPI INIT")
-
         self.baseUrl = URL(string: baseUrl)!
         self.apiId = apiId
         self.apiSecret = apiSecret

@@ -113,7 +113,6 @@ public struct BxRestAPI {
                     do {
                         let value = try self.decoder.decode(T.self, from: json)
                         print("\nReply OK \(T.self)\n")
-                        print("\nReply:\n\(String(data: json, encoding: .utf8) ?? "---")\n\n\n\n")
                         handle(.success(value))
                     }
                     catch {
