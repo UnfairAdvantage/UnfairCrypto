@@ -5,14 +5,14 @@
 
 Unfair Crypto is the quickest and simplest way to get started with algorithmic trading of crypto currencies (and derivatives). It currently supports Bitmex and Binance, and over time all exchanges that provide an API will be added. Unfair Crypto requires a Mac and uses [Swift](https://developer.apple.com/swift/), Apple's new programming language but you don't need to know Swift to get started using the platform, Unfair Crypto is made to be extremely simple to use, even for newcomers to the language or programming in general.
 
-* [Introduction](#Introduction)
-* [Requirements](#Requirements)
-* [Tutorial](#Tutorial)
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Roadmap](#Roadmap)
-* [Feedback](#Feedback)
-* [Custom work](#Custom work)
+* [Introduction](#introduction)
+* [Requirements](#requirements)
+* [Tutorial](#tutorial)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Feedback](#feedback)
+* [Custom work](#custom work)
 
 ## Introduction
 
