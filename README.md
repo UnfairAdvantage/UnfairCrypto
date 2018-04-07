@@ -5,30 +5,30 @@
 
 Unfair Crypto is the quickest and simplest way to get started with algorithmic trading of crypto currencies (and derivatives). It currently supports Bitmex and Binance, and over time all exchanges that provide an API will be added. Unfair Crypto requires a Mac and uses [Swift](https://developer.apple.com/swift/), Apple's new programming language but you don't need to know Swift to get started using the platform, Unfair Crypto is made to be extremely simple to use, even for newcomers to the language or programming in general.
 
-*[Introduction](#Introduction)
-*[Requirements](#Requirements)
-*[Tutorial](#Tutorial)
-*[Installation](#Installation)
-*[Usage](#Usage)
-*[Roadmap](#Roadmap)
-*[Feedback](#Feedback)
-*[Custom work](#Custom work)
+* [Introduction](#Introduction)
+* [Requirements](#Requirements)
+* [Tutorial](#Tutorial)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Roadmap](#Roadmap)
+* [Feedback](#Feedback)
+* [Custom work](#Custom work)
 
-# Introduction
+## Introduction
 
-# Requirements
+## Requirements
 At the moment, you need the following to use Unfair Crypto:
 * A Mac
 * The latest version of XCode (9.3)
 * An account at Bitmex and/or Binance
 
-# Tutorial
+## Tutorial
 
-# Installation
+## Installation
 
-# Usage
+## Usage
 
-# Roadmap
+## Roadmap
 
 Over the coming months, we will be rolling out a number of exciting features, including:
 
@@ -37,7 +37,9 @@ Over the coming months, we will be rolling out a number of exciting features, in
 * Built-in support for RxSwift
 * 
 
-# Custom work
+## Feedback
+
+## Custom work
 
 Unfair Advantage is a software studio with deep knowledge of financial markets and algorithmic trading, with several Master's degrees in financial mathematics, a CFA holder, (Chartered Financial Analyst) and experienced traders in the team. We occasionally help customers implement their own algorithmic crypto strategies
 
