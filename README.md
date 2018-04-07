@@ -3,9 +3,35 @@
 
 ![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20macOS-333333.svg) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-* RxSwift 3.x / Swift 3.x can be found in [**rxswift-3.0** branch](https://github.com/ReactiveX/RxSwift/tree/rxswift-3.0).
+Unfair Crypto is the quickest and simplest way to get started with algorithmic trading of crypto currencies (and derivatives). It currently supports Bitmex and Binance, and over time all exchanges that provide an API will be added. Unfair Crypto requires a Mac and uses [Swift](https://developer.apple.com/swift/), Apple's new programming language but you don't need to know Swift to get started using the platform, Unfair Crypto is made to be extremely simple to use, even for newcomers to the language or programming in general.
 
-Rx is a [generic abstraction of computation](https://youtu.be/looJcaeboBY) expressed through `Observable<Element>` interface.
+# Introduction
+
+# Requirements
+At the moment, you need the following to use Unfair Crypto:
+* A Mac
+* The latest version of XCode (9.3)
+* An account at Bitmex and/or Binance
+
+# Tutorial
+
+# Installation
+
+# Usage
+
+# Roadmap
+
+Over the coming months, we will be rolling out a number of exciting features, including:
+
+* Support for all remaining crypto exchanges
+* Useful template trading apps that you can leverage to implement your own algorithms even faster
+* Built-in support for RxSwift
+* 
+
+# Custom work
+
+Unfair Advantage is a software studio with deep knowledge of financial markets and algorithmic trading, with several Master's degrees in financial mathematics, a CFA holder, (Chartered Financial Analyst) and experienced traders in the team. We occasionally help customers implement their own algorithmic crypto strategies
+
 
 This is a Swift version of [Rx](https://github.com/Reactive-Extensions/Rx.NET).
 
