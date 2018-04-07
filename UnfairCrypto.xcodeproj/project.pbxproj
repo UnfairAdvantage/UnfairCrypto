@@ -61,9 +61,27 @@
 		2265496F2074F5A30059E5D5 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265496D2074F5A30059E5D5 /* General.swift */; };
 		226549A0207680300059E5D5 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2265499F207680300059E5D5 /* CryptoSwift.framework */; };
 		226549A2207680410059E5D5 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226549A1207680410059E5D5 /* CryptoSwift.framework */; };
+		2285CB01207936DA0068FDBD /* Alamofire.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2285CAFE207936D90068FDBD /* Alamofire.framework.dSYM */; };
+		2285CB02207936DA0068FDBD /* CryptoSwift.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2285CAFF207936DA0068FDBD /* CryptoSwift.framework.dSYM */; };
+		2285CB03207936DA0068FDBD /* Starscream.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2285CB00207936DA0068FDBD /* Starscream.framework.dSYM */; };
 		22D979422072750000935A95 /* UnfairCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D979402072750000935A95 /* UnfairCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22D9795A207277CE00935A95 /* UnfairCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D979402072750000935A95 /* UnfairCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2285CAFD207936970068FDBD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				2285CB01207936DA0068FDBD /* Alamofire.framework.dSYM in CopyFiles */,
+				2285CB02207936DA0068FDBD /* CryptoSwift.framework.dSYM in CopyFiles */,
+				2285CB03207936DA0068FDBD /* Starscream.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2265491A2074F40A0059E5D5 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
@@ -96,6 +114,9 @@
 		2265496D2074F5A30059E5D5 /* General.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
 		2265499F207680300059E5D5 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/iOS/CryptoSwift.framework; sourceTree = SOURCE_ROOT; };
 		226549A1207680410059E5D5 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/Mac/CryptoSwift.framework; sourceTree = SOURCE_ROOT; };
+		2285CAFE207936D90068FDBD /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		2285CAFF207936DA0068FDBD /* CryptoSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = CryptoSwift.framework.dSYM; sourceTree = "<group>"; };
+		2285CB00207936DA0068FDBD /* Starscream.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Starscream.framework.dSYM; sourceTree = "<group>"; };
 		22D9793D2072750000935A95 /* UnfairCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UnfairCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D979402072750000935A95 /* UnfairCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnfairCrypto.h; sourceTree = "<group>"; };
 		22D979412072750000935A95 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
@@ -141,6 +162,9 @@
 		2265491E2074F4140059E5D5 /* Frameworks macOS */ = {
 			isa = PBXGroup;
 			children = (
+				2285CAFE207936D90068FDBD /* Alamofire.framework.dSYM */,
+				2285CAFF207936DA0068FDBD /* CryptoSwift.framework.dSYM */,
+				2285CB00207936DA0068FDBD /* Starscream.framework.dSYM */,
 				226549A1207680410059E5D5 /* CryptoSwift.framework */,
 				226549202074F4330059E5D5 /* Alamofire.framework */,
 				2265491F2074F4330059E5D5 /* Starscream.framework */,
@@ -292,6 +316,7 @@
 				22D979482072756B00935A95 /* Headers */,
 				22D979492072756B00935A95 /* Resources */,
 				226549232074F45B0059E5D5 /* Run Script */,
+				2285CAFD207936970068FDBD /* CopyFiles */,
 			);
 			buildRules = (
 			);
