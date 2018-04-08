@@ -16,17 +16,24 @@ Unfair Crypto is the quickest and simplest way to get started with algorithmic t
 
 ## Introduction
 
-## Requirements
-At the moment, you need the following to use Unfair Crypto:
-* A Mac
-* The latest version of XCode (9.3)
-* An account at Bitmex and/or Binance
+## Usage
 
-## Tutorial
+## Requirements
+We have some very exciting things in the pipeline that will change this, but at the moment, you need a Mac to get started with algorithmic crypto trading using Unfair Crypto. You can also use a [Hackintosh](https://hackintosh.com/) or a [virtual Mac](https://techsviewer.com/install-macos-high-sierra-vmware-windows/).
 
 ## Installation
 
-## Usage
+The tutorial goes through the entire installation process in detail, but in general terms you need to perform the following steps:
+
+* Create an [Apple ID](https://appleid.apple.com)
+* Enroll in the free [Apple developer programme](https://developer.apple.com/programs/enroll/)
+* Download and install [XCode](https://developer.apple.com/xcode/)
+* Create an account at [Bitmex](https://www.bitmex.com) and/or [Binance](https://www.binance.com/)
+* Create API keys at the exchange(s) you are intertested in using.
+* Create an app and add Unfair Crypto to your app using Carthage (or use our template)
+* Profit
+
+## Tutorial
 
 ## Roadmap
 
@@ -35,26 +42,15 @@ Over the coming months, we will be rolling out a number of exciting features, in
 * Support for all remaining crypto exchanges
 * Useful template trading apps that you can leverage to implement your own algorithms even faster
 * Built-in support for RxSwift
-* 
+* New platforms, making algo trading even more accessible
 
 ## Feedback
+
+Create an issue here on Github or get in touch at info@unfair.me
 
 ## Custom work
 
 Unfair Advantage is a software studio with deep knowledge of financial markets and algorithmic trading, with several Master's degrees in financial mathematics, a CFA holder, (Chartered Financial Analyst) and experienced traders in the team. We occasionally help customers implement their own algorithmic crypto strategies
-
-
-This is a Swift version of [Rx](https://github.com/Reactive-Extensions/Rx.NET).
-
-It tries to port as many concepts from the original version as possible, but some concepts were adapted for more pleasant and performant integration with iOS/macOS environment.
-
-Cross platform documentation can be found on [ReactiveX.io](http://reactivex.io/).
-
-Like the original Rx, its intention is to enable easy composition of asynchronous operations and event/data streams.
-
-KVO observing, async operations and streams are all unified under [abstraction of sequence](Documentation/GettingStarted.md#observables-aka-sequences). This is the reason why Rx is so simple, elegant and powerful.
-
-## I came here because I want to ...
 
 ###### ... understand
 
