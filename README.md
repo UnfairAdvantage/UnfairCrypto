@@ -24,16 +24,21 @@ The first part of the platform to be released is the interface for obtaining dat
 
 Unfair Crypto covers the entire APIs of both exchanges, which in turn means that anything you can do in the web interfaces, you can do with Unfair Crypto -- from getting the latest quotes to placing complex interlinked orders.
 
-### Exanples
+### Examples
 
 Places a simple limit order for 0.1 Cardano's at a price of 23 BTC, and prints the order status
 
 ```swift
-        Bitmex.rest
-            .order
-            .create(symbol: .ada, side: .buy, quantity: 0.1)
-            .limit(price: 23)
-            .handleSuccess { order in print(order.ordStatus) }
+
+// Sets up your API key and secret
+Bitmex.setup(id: "My API id", secret: "My API secret")
+
+// Places a simple limit order for 0.1 Cardano's at a price of 23 BTC, and prints the order statu
+Bitmex.rest
+    .order
+    .create(symbol: .ada, side: .buy, quantity: 0.1)
+    .limit(price: 23)
+    .handleSuccess { order in print(order.ordStatus) }
 ```
 
 ## Requirements
