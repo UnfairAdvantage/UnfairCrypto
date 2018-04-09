@@ -16,7 +16,7 @@ Unfair Crypto is the quickest and simplest way to get started with algorithmic t
 
 ## Introduction
 
-[Unfair Advantage](https://unfair.me) is a Scandinavian software development company that specialises invery challenging projects such as drone and fintech projects, and Unfair Crypto was built for the [Skye crypto fund](https://skyecrypto.ai), a crypto arbitrage fund that until recently was only taking private investments. When decided to take investments from the broader community through their [ICO](https://skyecrypto.ai/ico) they wanted a fast and reliable toolchain that facilitated fast iteration and minimised the time spent fixing bugs. The result is the UnfairCrypto platform, which is gradually being opensourced. It is extremely simple to use, type safe and highly extensible, and now anyone can use it to implement their crypto trading ideas, build visualisation tools or any other crypto related Mac or iOS app they can imagine.
+[Unfair Advantage](https://unfair.me) is a Scandinavian software development company that specialises invery challenging projects such as drone and fintech projects, and Unfair Crypto was built for the [Skye crypto fund](https://skyecrypto.ai), a crypto arbitrage fund that until recently was only taking private investments. When decided to take investments from the broader community through their [ICO](https://skyecrypto.ai/ico) they wanted a reliable toolchain that facilitated fast iteration and minimised the time spent fixing bugs. The result is the UnfairCrypto platform, which is gradually being open-sourced. It is extremely easy to use and highly extensible, and now anyone can use it to implement their crypto trading ideas, build visualisation tools or any other crypto related Mac or iOS app they can imagine.
 
 The first part of the platform to be released is the interface for obtaining data from and placing orders at two major exchanges, Bitmex and Binance. Over time the entire toolchain will be open-sourced.
 
@@ -39,6 +39,12 @@ Bitmex.rest
     .create(symbol: .ada, side: .buy, quantity: 0.1)
     .limit(price: 23)
     .handleSuccess { order in print(order.ordStatus) }
+
+// Send a chat message
+Bitmex.rest
+    .chat
+    .send("Hello world")
+    .handleSuccess { _ in print("Message was sent succesfully") }
 ```
 
 ## Requirements
