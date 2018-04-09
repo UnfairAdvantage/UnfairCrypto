@@ -5,7 +5,7 @@
 
 Unfair Crypto is the quickest and simplest way to get started with algorithmic trading of crypto currencies (and derivatives). It currently supports Bitmex and Binance, and over time all exchanges that provide an API will be added. Unfair Crypto requires a Mac and uses [Swift](https://developer.apple.com/swift/), Apple's new programming language. But you don't need to know Swift to get started using the platform! Unfair Crypto is made to be extremely simple to use, even for newcomers to the language or programming in general.
 
-* [Introduction](#introduction)
+* [Background](#background)
 * [Usage](#usage)
 * [Requirements](#requirements)
 * [Installation](#installation)
@@ -14,7 +14,7 @@ Unfair Crypto is the quickest and simplest way to get started with algorithmic t
 * [Feedback](#feedback)
 * [Consulting](#consulting)
 
-## Introduction
+## Background
 
 [Unfair Advantage](https://unfair.me) is a Scandinavian software development company that specialises invery challenging projects such as drone and fintech projects, and Unfair Crypto was built for the [Skye crypto fund](https://skyecrypto.ai), a crypto arbitrage fund that until recently was only taking private investments. When decided to take investments from the broader community through their [ICO](https://skyecrypto.ai/ico) they wanted a reliable toolchain that facilitated fast iteration and minimised the time spent fixing bugs. The result is the UnfairCrypto platform, which is gradually being open-sourced. It is extremely easy to use and highly extensible, and now anyone can use it to implement their crypto trading ideas, build visualisation tools or any other crypto related Mac or iOS app they can imagine.
 
@@ -33,7 +33,7 @@ Places a simple limit order for 0.1 Cardano's at a price of 23 BTC, and prints t
 // Sets up your API key and secret
 Bitmex.setup(id: "My API id", secret: "My API secret")
 
-// Places a simple limit order for 0.1 Cardano's at a price of 23 BTC, and prints the order statu
+// Places a simple limit buy order for 0.1 Cardano's at a price of 23 BTC, and prints the order statu
 Bitmex.rest
     .order
     .create(symbol: .ada, side: .buy, quantity: 0.1)
