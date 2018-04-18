@@ -1,4 +1,4 @@
-<img src="assets/Rx_Logo_M.png" alt="Miss Electric Eel 2016" width="36" height="36"> UnfairCrypto: Algorithmic crypto trading for the masses
+UnfairCrypto: Algorithmic crypto trading for the masses
 ======
 
 ![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20macOS-333333.svg) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -16,7 +16,7 @@ Unfair Crypto is the quickest and simplest way to get started with algorithmic t
 
 ## Background
 
-[Unfair Advantage](https://unfair.me) is a Scandinavian software development company that specialises invery challenging projects such as drone and fintech projects, and Unfair Crypto was built for the [Skye crypto fund](https://skyecrypto.ai), a crypto arbitrage fund that until recently was only taking private investments. When decided to take investments from the broader community through their [ICO](https://skyecrypto.ai/ico) they wanted a reliable toolchain that facilitated fast iteration and minimised the time spent fixing bugs. The result is the UnfairCrypto platform, which is gradually being open-sourced. It is extremely easy to use and highly extensible, and now anyone can use it to implement their crypto trading ideas, build visualisation tools or any other crypto related Mac or iOS app they can imagine.
+[Unfair Advantage](https://unfair.me) is a Scandinavian software development company that specialises in very challenging projects within fields such as drone and fintech, and Unfair Crypto was built for the [Skye crypto fund](https://skyecrypto.com), a crypto arbitrage fund that until recently was only taking private investments. When they decided to take investments from the broader community through an ICO they wanted a reliable toolchain that facilitated fast iteration and minimised the time spent fixing bugs. The result is the UnfairCrypto platform, which is gradually being open-sourced. It is extremely easy to use and highly extensible, and now anyone can use it to implement their crypto trading ideas, build visualisation tools or any other crypto related Mac or iOS app they can imagine.
 
 The first part of the platform to be released is the interface for obtaining data from and placing orders at two major exchanges, Bitmex and Binance. Over time the entire toolchain will be open-sourced.
 
@@ -33,11 +33,11 @@ Places a simple limit order for 0.1 Cardano's at a price of 23 BTC, and prints t
 // Sets up your API key and secret
 Bitmex.setup(id: "My API id", secret: "My API secret")
 
-// Places a simple limit buy order for 0.1 Cardano's at a price of 23 BTC, and prints the order statu
+// Places a simple limit buy order for 8 Ether's at a price of 0.065 BTC, and prints the order status
 Bitmex.rest
     .order
-    .create(symbol: .ada, side: .buy, quantity: 0.1)
-    .limit(price: 23)
+    .create(symbol: .eth, side: .buy, quantity: 8)
+    .limit(price: 0.065)
     .handleSuccess { order in print(order.ordStatus) }
 
 // Send a chat message
