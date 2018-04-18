@@ -16,7 +16,8 @@ Unfair Crypto is the quickest and simplest way to get started with algorithmic t
 
 ## Background
 
-[Unfair Advantage](https://unfair.me) is a Scandinavian software development company that specialises in very challenging projects within fields such as drone and fintech, and Unfair Crypto was built for the [Skye crypto fund](https://skyecrypto.com), a crypto arbitrage fund that until recently was only taking private investments. When they decided to take investments from the broader community through an ICO they wanted a reliable toolchain that facilitated fast iteration and minimised the time spent fixing bugs. The result is the UnfairCrypto platform, which is gradually being open-sourced. It is extremely easy to use and highly extensible, and now anyone can use it to implement their crypto trading ideas, build visualisation tools or any other crypto related Mac or iOS app they can imagine.
+<> [Unfair Advantage](https://unfair.me)
+Unfair Advantage is a Scandinavian software development company that specialises in very challenging projects within fields such as drone and fintech, and Unfair Crypto was built for the [Skye crypto fund](https://skyecrypto.com), a crypto arbitrage fund that until recently was only taking private investments. When they decided to take investments from the broader community through an ICO they wanted a reliable toolchain that facilitated fast iteration and minimised the time spent fixing bugs. The result is the UnfairCrypto platform, which is gradually being open-sourced. It is extremely easy to use and highly extensible, and now anyone can use it to implement their crypto trading ideas, build visualisation tools or any other crypto related Mac or iOS app they can imagine.
 
 The first part of the platform to be released is the interface for obtaining data from and placing orders at two major exchanges, Bitmex and Binance. Over time the entire toolchain will be open-sourced.
 
