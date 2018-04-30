@@ -33,7 +33,7 @@ Places a simple limit order for 2500 Cardano's at a price of 0.00003750 BT/ADAC,
 // Sets up your API key and secret
 Binance.setup(id: "My API id", secret: "My API secret")
 
-// Places a simple limit buy order for 8 Cardanos's at a price of 0.00003750 BTC, and prints the order status
+// Places a simple limit buy order for 1000 Cardanos's at a price of 0.00003750 BTC, and prints the order status
         func handleOrderResponse(response: BnResponse.Order.Full) {
             print("Orderstatus: \(response.status)")
         }
