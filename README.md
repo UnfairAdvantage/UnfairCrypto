@@ -26,8 +26,6 @@ Unfair Crypto covers the entire API of Binance, which in turn means that anythin
 
 ### Examples
 
-Places a simple limit order for 2500 Cardano's at a price of 0.00003750 BT/ADAC, and prints the order status
-
 ```swift
 
 // Sets up your API key and secret
