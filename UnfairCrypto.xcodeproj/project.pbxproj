@@ -11,52 +11,6 @@
 		2265491D2074F40A0059E5D5 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2265491B2074F40A0059E5D5 /* Starscream.framework */; };
 		226549212074F4330059E5D5 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2265491F2074F4330059E5D5 /* Starscream.framework */; };
 		226549222074F4330059E5D5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226549202074F4330059E5D5 /* Alamofire.framework */; };
-		2265493F2074F5610059E5D5 /* Bitmex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549262074F5610059E5D5 /* Bitmex.swift */; };
-		226549402074F5610059E5D5 /* Bitmex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549262074F5610059E5D5 /* Bitmex.swift */; };
-		226549412074F5610059E5D5 /* BxSettlement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549282074F5610059E5D5 /* BxSettlement.swift */; };
-		226549422074F5610059E5D5 /* BxSettlement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549282074F5610059E5D5 /* BxSettlement.swift */; };
-		226549432074F5610059E5D5 /* BxOrderbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549292074F5610059E5D5 /* BxOrderbook.swift */; };
-		226549442074F5610059E5D5 /* BxOrderbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549292074F5610059E5D5 /* BxOrderbook.swift */; };
-		226549452074F5610059E5D5 /* BxChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492A2074F5610059E5D5 /* BxChat.swift */; };
-		226549462074F5610059E5D5 /* BxChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492A2074F5610059E5D5 /* BxChat.swift */; };
-		226549472074F5610059E5D5 /* BxTrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492B2074F5610059E5D5 /* BxTrade.swift */; };
-		226549482074F5610059E5D5 /* BxTrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492B2074F5610059E5D5 /* BxTrade.swift */; };
-		226549492074F5610059E5D5 /* BxPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492C2074F5610059E5D5 /* BxPosition.swift */; };
-		2265494A2074F5610059E5D5 /* BxPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492C2074F5610059E5D5 /* BxPosition.swift */; };
-		2265494B2074F5610059E5D5 /* BxRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492D2074F5610059E5D5 /* BxRequest.swift */; };
-		2265494C2074F5610059E5D5 /* BxRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492D2074F5610059E5D5 /* BxRequest.swift */; };
-		2265494D2074F5610059E5D5 /* BxInsurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492E2074F5610059E5D5 /* BxInsurance.swift */; };
-		2265494E2074F5610059E5D5 /* BxInsurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492E2074F5610059E5D5 /* BxInsurance.swift */; };
-		2265494F2074F5610059E5D5 /* BxFunding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492F2074F5610059E5D5 /* BxFunding.swift */; };
-		226549502074F5610059E5D5 /* BxFunding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265492F2074F5610059E5D5 /* BxFunding.swift */; };
-		226549512074F5610059E5D5 /* BxNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549302074F5610059E5D5 /* BxNotification.swift */; };
-		226549522074F5610059E5D5 /* BxNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549302074F5610059E5D5 /* BxNotification.swift */; };
-		226549532074F5610059E5D5 /* BxQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549312074F5610059E5D5 /* BxQuote.swift */; };
-		226549542074F5610059E5D5 /* BxQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549312074F5610059E5D5 /* BxQuote.swift */; };
-		226549552074F5610059E5D5 /* BxUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549322074F5610059E5D5 /* BxUser.swift */; };
-		226549562074F5610059E5D5 /* BxUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549322074F5610059E5D5 /* BxUser.swift */; };
-		226549572074F5610059E5D5 /* BxExecution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549332074F5610059E5D5 /* BxExecution.swift */; };
-		226549582074F5610059E5D5 /* BxExecution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549332074F5610059E5D5 /* BxExecution.swift */; };
-		226549592074F5610059E5D5 /* BxOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549342074F5610059E5D5 /* BxOrder.swift */; };
-		2265495A2074F5610059E5D5 /* BxOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549342074F5610059E5D5 /* BxOrder.swift */; };
-		2265495B2074F5610059E5D5 /* BxAnnouncement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549352074F5610059E5D5 /* BxAnnouncement.swift */; };
-		2265495C2074F5610059E5D5 /* BxAnnouncement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549352074F5610059E5D5 /* BxAnnouncement.swift */; };
-		2265495D2074F5610059E5D5 /* BxSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549362074F5610059E5D5 /* BxSchema.swift */; };
-		2265495E2074F5610059E5D5 /* BxSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549362074F5610059E5D5 /* BxSchema.swift */; };
-		2265495F2074F5610059E5D5 /* BxLeaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549372074F5610059E5D5 /* BxLeaderboard.swift */; };
-		226549602074F5610059E5D5 /* BxLeaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549372074F5610059E5D5 /* BxLeaderboard.swift */; };
-		226549612074F5610059E5D5 /* BxInstrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549382074F5610059E5D5 /* BxInstrument.swift */; };
-		226549622074F5610059E5D5 /* BxInstrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549382074F5610059E5D5 /* BxInstrument.swift */; };
-		226549632074F5610059E5D5 /* BxLiquidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549392074F5610059E5D5 /* BxLiquidation.swift */; };
-		226549642074F5610059E5D5 /* BxLiquidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226549392074F5610059E5D5 /* BxLiquidation.swift */; };
-		226549652074F5610059E5D5 /* BxApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265493A2074F5610059E5D5 /* BxApiKey.swift */; };
-		226549662074F5610059E5D5 /* BxApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265493A2074F5610059E5D5 /* BxApiKey.swift */; };
-		226549672074F5610059E5D5 /* BxStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265493B2074F5610059E5D5 /* BxStats.swift */; };
-		226549682074F5610059E5D5 /* BxStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265493B2074F5610059E5D5 /* BxStats.swift */; };
-		226549692074F5610059E5D5 /* BxRestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265493C2074F5610059E5D5 /* BxRestAPI.swift */; };
-		2265496A2074F5610059E5D5 /* BxRestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265493C2074F5610059E5D5 /* BxRestAPI.swift */; };
-		2265496B2074F5610059E5D5 /* BxSocketAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265493E2074F5610059E5D5 /* BxSocketAPI.swift */; };
-		2265496C2074F5610059E5D5 /* BxSocketAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265493E2074F5610059E5D5 /* BxSocketAPI.swift */; };
 		2265496E2074F5A30059E5D5 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265496D2074F5A30059E5D5 /* General.swift */; };
 		2265496F2074F5A30059E5D5 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265496D2074F5A30059E5D5 /* General.swift */; };
 		226549A0207680300059E5D5 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2265499F207680300059E5D5 /* CryptoSwift.framework */; };
@@ -64,6 +18,16 @@
 		2285CB01207936DA0068FDBD /* Alamofire.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2285CAFE207936D90068FDBD /* Alamofire.framework.dSYM */; };
 		2285CB02207936DA0068FDBD /* CryptoSwift.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2285CAFF207936DA0068FDBD /* CryptoSwift.framework.dSYM */; };
 		2285CB03207936DA0068FDBD /* Starscream.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2285CB00207936DA0068FDBD /* Starscream.framework.dSYM */; };
+		22876980209702A400071D0E /* Binance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22876979209702A400071D0E /* Binance.swift */; };
+		22876981209702A400071D0E /* Binance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22876979209702A400071D0E /* Binance.swift */; };
+		22876982209702A400071D0E /* BnResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287697B209702A400071D0E /* BnResponse.swift */; };
+		22876983209702A400071D0E /* BnResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287697B209702A400071D0E /* BnResponse.swift */; };
+		22876984209702A400071D0E /* BnRestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287697C209702A400071D0E /* BnRestAPI.swift */; };
+		22876985209702A400071D0E /* BnRestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287697C209702A400071D0E /* BnRestAPI.swift */; };
+		22876986209702A400071D0E /* BnRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287697D209702A400071D0E /* BnRequest.swift */; };
+		22876987209702A400071D0E /* BnRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287697D209702A400071D0E /* BnRequest.swift */; };
+		22876988209702A400071D0E /* BnSocketAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287697F209702A400071D0E /* BnSocketAPI.swift */; };
+		22876989209702A400071D0E /* BnSocketAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287697F209702A400071D0E /* BnSocketAPI.swift */; };
 		22D979422072750000935A95 /* UnfairCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D979402072750000935A95 /* UnfairCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22D9795A207277CE00935A95 /* UnfairCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D979402072750000935A95 /* UnfairCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -88,35 +52,17 @@
 		2265491B2074F40A0059E5D5 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = SOURCE_ROOT; };
 		2265491F2074F4330059E5D5 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/Mac/Starscream.framework; sourceTree = SOURCE_ROOT; };
 		226549202074F4330059E5D5 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = SOURCE_ROOT; };
-		226549262074F5610059E5D5 /* Bitmex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bitmex.swift; sourceTree = "<group>"; };
-		226549282074F5610059E5D5 /* BxSettlement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxSettlement.swift; sourceTree = "<group>"; };
-		226549292074F5610059E5D5 /* BxOrderbook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxOrderbook.swift; sourceTree = "<group>"; };
-		2265492A2074F5610059E5D5 /* BxChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxChat.swift; sourceTree = "<group>"; };
-		2265492B2074F5610059E5D5 /* BxTrade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxTrade.swift; sourceTree = "<group>"; };
-		2265492C2074F5610059E5D5 /* BxPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxPosition.swift; sourceTree = "<group>"; };
-		2265492D2074F5610059E5D5 /* BxRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxRequest.swift; sourceTree = "<group>"; };
-		2265492E2074F5610059E5D5 /* BxInsurance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxInsurance.swift; sourceTree = "<group>"; };
-		2265492F2074F5610059E5D5 /* BxFunding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxFunding.swift; sourceTree = "<group>"; };
-		226549302074F5610059E5D5 /* BxNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxNotification.swift; sourceTree = "<group>"; };
-		226549312074F5610059E5D5 /* BxQuote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxQuote.swift; sourceTree = "<group>"; };
-		226549322074F5610059E5D5 /* BxUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxUser.swift; sourceTree = "<group>"; };
-		226549332074F5610059E5D5 /* BxExecution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxExecution.swift; sourceTree = "<group>"; };
-		226549342074F5610059E5D5 /* BxOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxOrder.swift; sourceTree = "<group>"; };
-		226549352074F5610059E5D5 /* BxAnnouncement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxAnnouncement.swift; sourceTree = "<group>"; };
-		226549362074F5610059E5D5 /* BxSchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxSchema.swift; sourceTree = "<group>"; };
-		226549372074F5610059E5D5 /* BxLeaderboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxLeaderboard.swift; sourceTree = "<group>"; };
-		226549382074F5610059E5D5 /* BxInstrument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxInstrument.swift; sourceTree = "<group>"; };
-		226549392074F5610059E5D5 /* BxLiquidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxLiquidation.swift; sourceTree = "<group>"; };
-		2265493A2074F5610059E5D5 /* BxApiKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxApiKey.swift; sourceTree = "<group>"; };
-		2265493B2074F5610059E5D5 /* BxStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxStats.swift; sourceTree = "<group>"; };
-		2265493C2074F5610059E5D5 /* BxRestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxRestAPI.swift; sourceTree = "<group>"; };
-		2265493E2074F5610059E5D5 /* BxSocketAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BxSocketAPI.swift; sourceTree = "<group>"; };
 		2265496D2074F5A30059E5D5 /* General.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
 		2265499F207680300059E5D5 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/iOS/CryptoSwift.framework; sourceTree = SOURCE_ROOT; };
 		226549A1207680410059E5D5 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/Mac/CryptoSwift.framework; sourceTree = SOURCE_ROOT; };
 		2285CAFE207936D90068FDBD /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Alamofire.framework.dSYM; sourceTree = "<group>"; };
 		2285CAFF207936DA0068FDBD /* CryptoSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = CryptoSwift.framework.dSYM; sourceTree = "<group>"; };
 		2285CB00207936DA0068FDBD /* Starscream.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Starscream.framework.dSYM; sourceTree = "<group>"; };
+		22876979209702A400071D0E /* Binance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Binance.swift; sourceTree = "<group>"; };
+		2287697B209702A400071D0E /* BnResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BnResponse.swift; sourceTree = "<group>"; };
+		2287697C209702A400071D0E /* BnRestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BnRestAPI.swift; sourceTree = "<group>"; };
+		2287697D209702A400071D0E /* BnRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BnRequest.swift; sourceTree = "<group>"; };
+		2287697F209702A400071D0E /* BnSocketAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BnSocketAPI.swift; sourceTree = "<group>"; };
 		22D9793D2072750000935A95 /* UnfairCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UnfairCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D979402072750000935A95 /* UnfairCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnfairCrypto.h; sourceTree = "<group>"; };
 		22D979412072750000935A95 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
@@ -172,57 +118,39 @@
 			path = "Frameworks macOS";
 			sourceTree = "<group>";
 		};
-		226549252074F5610059E5D5 /* Bitmex */ = {
-			isa = PBXGroup;
-			children = (
-				226549262074F5610059E5D5 /* Bitmex.swift */,
-				2265493C2074F5610059E5D5 /* BxRestAPI.swift */,
-				2265493E2074F5610059E5D5 /* BxSocketAPI.swift */,
-				226549272074F5610059E5D5 /* Rest */,
-				2265493D2074F5610059E5D5 /* Socket */,
-			);
-			path = Bitmex;
-			sourceTree = "<group>";
-		};
-		226549272074F5610059E5D5 /* Rest */ = {
-			isa = PBXGroup;
-			children = (
-				226549282074F5610059E5D5 /* BxSettlement.swift */,
-				226549292074F5610059E5D5 /* BxOrderbook.swift */,
-				2265492A2074F5610059E5D5 /* BxChat.swift */,
-				2265492B2074F5610059E5D5 /* BxTrade.swift */,
-				2265492C2074F5610059E5D5 /* BxPosition.swift */,
-				2265492D2074F5610059E5D5 /* BxRequest.swift */,
-				2265492E2074F5610059E5D5 /* BxInsurance.swift */,
-				2265492F2074F5610059E5D5 /* BxFunding.swift */,
-				226549302074F5610059E5D5 /* BxNotification.swift */,
-				226549312074F5610059E5D5 /* BxQuote.swift */,
-				226549322074F5610059E5D5 /* BxUser.swift */,
-				226549332074F5610059E5D5 /* BxExecution.swift */,
-				226549342074F5610059E5D5 /* BxOrder.swift */,
-				226549352074F5610059E5D5 /* BxAnnouncement.swift */,
-				226549362074F5610059E5D5 /* BxSchema.swift */,
-				226549372074F5610059E5D5 /* BxLeaderboard.swift */,
-				226549382074F5610059E5D5 /* BxInstrument.swift */,
-				226549392074F5610059E5D5 /* BxLiquidation.swift */,
-				2265493A2074F5610059E5D5 /* BxApiKey.swift */,
-				2265493B2074F5610059E5D5 /* BxStats.swift */,
-			);
-			path = Rest;
-			sourceTree = "<group>";
-		};
-		2265493D2074F5610059E5D5 /* Socket */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Socket;
-			sourceTree = "<group>";
-		};
 		2265499C2075F6CC0059E5D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22876978209702A400071D0E /* Binance */ = {
+			isa = PBXGroup;
+			children = (
+				22876979209702A400071D0E /* Binance.swift */,
+				2287697A209702A400071D0E /* Rest */,
+				2287697E209702A400071D0E /* Socket */,
+			);
+			path = Binance;
+			sourceTree = "<group>";
+		};
+		2287697A209702A400071D0E /* Rest */ = {
+			isa = PBXGroup;
+			children = (
+				2287697B209702A400071D0E /* BnResponse.swift */,
+				2287697C209702A400071D0E /* BnRestAPI.swift */,
+				2287697D209702A400071D0E /* BnRequest.swift */,
+			);
+			path = Rest;
+			sourceTree = "<group>";
+		};
+		2287697E209702A400071D0E /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				2287697F209702A400071D0E /* BnSocketAPI.swift */,
+			);
+			path = Socket;
 			sourceTree = "<group>";
 		};
 		22D97931207274B200935A95 = {
@@ -251,7 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				2265496D2074F5A30059E5D5 /* General.swift */,
-				226549252074F5610059E5D5 /* Bitmex */,
+				22876978209702A400071D0E /* Binance */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -427,30 +355,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				226549612074F5610059E5D5 /* BxInstrument.swift in Sources */,
-				226549532074F5610059E5D5 /* BxQuote.swift in Sources */,
-				226549452074F5610059E5D5 /* BxChat.swift in Sources */,
-				226549632074F5610059E5D5 /* BxLiquidation.swift in Sources */,
-				226549412074F5610059E5D5 /* BxSettlement.swift in Sources */,
-				226549592074F5610059E5D5 /* BxOrder.swift in Sources */,
-				2265495B2074F5610059E5D5 /* BxAnnouncement.swift in Sources */,
-				226549652074F5610059E5D5 /* BxApiKey.swift in Sources */,
-				226549432074F5610059E5D5 /* BxOrderbook.swift in Sources */,
-				2265496B2074F5610059E5D5 /* BxSocketAPI.swift in Sources */,
-				2265494F2074F5610059E5D5 /* BxFunding.swift in Sources */,
-				2265493F2074F5610059E5D5 /* Bitmex.swift in Sources */,
-				226549572074F5610059E5D5 /* BxExecution.swift in Sources */,
-				226549472074F5610059E5D5 /* BxTrade.swift in Sources */,
-				226549672074F5610059E5D5 /* BxStats.swift in Sources */,
-				226549512074F5610059E5D5 /* BxNotification.swift in Sources */,
-				2265495D2074F5610059E5D5 /* BxSchema.swift in Sources */,
-				2265494B2074F5610059E5D5 /* BxRequest.swift in Sources */,
-				226549552074F5610059E5D5 /* BxUser.swift in Sources */,
+				22876986209702A400071D0E /* BnRequest.swift in Sources */,
+				22876980209702A400071D0E /* Binance.swift in Sources */,
+				22876982209702A400071D0E /* BnResponse.swift in Sources */,
+				22876984209702A400071D0E /* BnRestAPI.swift in Sources */,
 				2265496E2074F5A30059E5D5 /* General.swift in Sources */,
-				226549492074F5610059E5D5 /* BxPosition.swift in Sources */,
-				2265495F2074F5610059E5D5 /* BxLeaderboard.swift in Sources */,
-				2265494D2074F5610059E5D5 /* BxInsurance.swift in Sources */,
-				226549692074F5610059E5D5 /* BxRestAPI.swift in Sources */,
+				22876988209702A400071D0E /* BnSocketAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,30 +368,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				226549622074F5610059E5D5 /* BxInstrument.swift in Sources */,
-				226549542074F5610059E5D5 /* BxQuote.swift in Sources */,
-				226549462074F5610059E5D5 /* BxChat.swift in Sources */,
-				226549642074F5610059E5D5 /* BxLiquidation.swift in Sources */,
-				226549422074F5610059E5D5 /* BxSettlement.swift in Sources */,
-				2265495A2074F5610059E5D5 /* BxOrder.swift in Sources */,
-				2265495C2074F5610059E5D5 /* BxAnnouncement.swift in Sources */,
-				226549662074F5610059E5D5 /* BxApiKey.swift in Sources */,
-				226549442074F5610059E5D5 /* BxOrderbook.swift in Sources */,
-				2265496C2074F5610059E5D5 /* BxSocketAPI.swift in Sources */,
-				226549502074F5610059E5D5 /* BxFunding.swift in Sources */,
-				226549402074F5610059E5D5 /* Bitmex.swift in Sources */,
-				226549582074F5610059E5D5 /* BxExecution.swift in Sources */,
-				226549482074F5610059E5D5 /* BxTrade.swift in Sources */,
-				226549682074F5610059E5D5 /* BxStats.swift in Sources */,
-				226549522074F5610059E5D5 /* BxNotification.swift in Sources */,
-				2265495E2074F5610059E5D5 /* BxSchema.swift in Sources */,
-				2265494C2074F5610059E5D5 /* BxRequest.swift in Sources */,
-				226549562074F5610059E5D5 /* BxUser.swift in Sources */,
+				22876987209702A400071D0E /* BnRequest.swift in Sources */,
+				22876981209702A400071D0E /* Binance.swift in Sources */,
+				22876983209702A400071D0E /* BnResponse.swift in Sources */,
+				22876985209702A400071D0E /* BnRestAPI.swift in Sources */,
 				2265496F2074F5A30059E5D5 /* General.swift in Sources */,
-				2265494A2074F5610059E5D5 /* BxPosition.swift in Sources */,
-				226549602074F5610059E5D5 /* BxLeaderboard.swift in Sources */,
-				2265494E2074F5610059E5D5 /* BxInsurance.swift in Sources */,
-				2265496A2074F5610059E5D5 /* BxRestAPI.swift in Sources */,
+				22876989209702A400071D0E /* BnSocketAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

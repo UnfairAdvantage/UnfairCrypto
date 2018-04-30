@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Alamofire
 
 public protocol StringConvertible { var stringValue: String { get } }
 extension String: StringConvertible { public var stringValue: String { return self } }
@@ -26,6 +27,27 @@ extension Array: StringConvertible where Element: StringConvertible {
 public protocol Subscribable {
     func subscribe(callback: @escaping (Set<String>) -> Void) -> UUID
     func unsubscribe(token: UUID)
+}
+
+public enum SocketState {
+    case disconnected
+    case connected
+}
+
+public enum RestMethod: String {
+    case options = "OPTIONS"
+    case get = "GET"
+    case head = "HEAD"
+    case post = "POST"
+    case put = "PUT"
+    case patch = "PATCH"
+    case delete = "DELETE"
+    case trace = "TRACE"
+    case connect = "CONNECT"
+
+    var http: HTTPMethod {
+        return HTTPMethod(rawValue: rawValue)!
+    }
 }
 
 public protocol QuoteStreamer: Subscribable {
@@ -54,6 +76,17 @@ public struct Quote: Decodable, Equatable, CustomStringConvertible {
     }
 }
 
+public enum Side: String, Decodable {
+    case buy = "Buy"
+    case sell = "Sell"
+}
+
+extension Quote: Comparable {
+    public static func <(lhs: Quote, rhs: Quote) -> Bool {
+        return  lhs.price < rhs.price
+    }
+}
+
 public typealias QuoteBook = (bids: [Quote], asks: [Quote])
 
 extension String {
@@ -64,4 +97,94 @@ extension String {
         return double
     }
 }
+
+public enum RootSymbol: String, Decodable {
+    static var all: [RootSymbol] {
+        return [.xbt, .ada, .bch, .dash, .eth, .etc, .ltc, .xmr, .xrp, .xlm, .zec, .neo]
+    }
+
+    case xbt = "XBT"
+    case ada = "ADA"
+    case bch = "BCH"
+    case dash = "DASH"
+    case eth = "ETH"
+    case etc = "ETC"
+    case ltc = "LTC"
+    case xmr = "XMR"
+    case xrp = "XRP"
+    case xlm = "XLM"
+    case zec = "ZEC"
+    case neo = "NEO"
+
+    init?(bxSymbol: String) {
+        guard let rootSymbol = RootSymbol.all.first(where: { bxSymbol.hasPrefix($0.bxRootSymbol) }) else {
+            return nil
+        }
+
+        self = rootSymbol
+    }
+
+    init?(bnSymbol: String) {
+        guard let rootSymbol = RootSymbol.all.first(where: { bnSymbol == $0.bnStream }) else {
+            return nil
+        }
+
+        self = rootSymbol
+    }
+
+    public var decimals: Int {
+        switch self {
+        case .xbt: return 1
+        case .ada: return 8
+        case .bch: return 4
+        case .dash: return 6
+        case .eth: return 5
+        case .etc: return 6
+        case .ltc: return 5
+        case .xmr: return 6
+        case .xrp: return 8
+        case .xlm: return 8
+        case .zec: return 5
+        case .neo: return 5 // fixme
+        }
+    }
+
+    public var bnStream: String {
+        switch self {
+        case .xbt: return "btcusdt"
+        case .ada: return "adabtc"
+        case .bch: return "bccbtc"
+        case .dash: return "dashbtc"
+        case .eth: return "ethbtc"
+        case .etc: return "etcbtc"
+        case .ltc: return "ltcbtc"
+        case .xmr: return "xmrbtc"
+        case .xrp: return "xrpbtc"
+        case .xlm: return "xlmbtc"
+        case .zec: return "zecbtc"
+        case .neo: return "zecbtc" // fixme
+        }
+    }
+
+    //    public var bnSymbol: String {
+    //        switch self {
+    //        case .xbt: return "btcusdt"
+    //        case .ada: return "adabtc"
+    //        case .bch: return "bccbtc"
+    //        case .dash: return "dashbtc"
+    //        case .eth: return "ethbtc"
+    //        case .etc: return "etcbtc"
+    //        case .ltc: return "ltcbtc"
+    //        case .xmr: return "xmrbtc"
+    //        case .xrp: return "xrpbtc"
+    //        case .xlm: return "xlmbtc"
+    //        case .zec: return "zecbtc"
+    //        }
+    //    }
+
+    public var bxRootSymbol: String {
+        return rawValue
+    }
+}
+
 
