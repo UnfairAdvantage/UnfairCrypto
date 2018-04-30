@@ -16,7 +16,7 @@ Unfair Crypto is the quickest and simplest way to get started with algorithmic t
 
 ## Background
 
-Unfair Advantage is a Scandinavian software development company that specialises in very challenging projects within fields such as drone and fintech, and Unfair Crypto was built by Unfair Advantage founder Gustaf Kugelberg for the [Skye Crypto fund](https://skyecrypto.com), a crypto arbitrage fund that he co-founded. The fund needed a reliable toolchain to facilitated fast iteration and minimise the time spent fixing bugs and the result is the UnfairCrypto platform, which is gradually being open-sourced. It is designed to be extremely easy to use and highly extensible, and now anyone can use it to implement their crypto trading ideas, build visualisation tools or any other crypto related Mac or iOS app they can imagine.
+Unfair Advantage is a Scandinavian software development company that specialises in very challenging projects within fields such as drone and fintech, and Unfair Crypto was built by Unfair Advantage founder Gustaf Kugelberg for the [Skye Crypto fund](https://skyecrypto.com), a crypto arbitrage fund that he co-founded. The fund needed a reliable toolchain to facilitate fast iteration and minimise the time spent fixing bugs. The result is the UnfairCrypto platform, which is gradually being open-sourced. It is designed to be extremely easy to use and highly extensible, and now anyone can use it to implement their crypto trading ideas, build visualisation tools or any other crypto related Mac or iOS app they can imagine.
 
 The first part of the platform to be released is the interface for obtaining data from and placing orders at Binance. Over time the entire toolchain will be open-sourced, and all major exchanges will be supported.
 
